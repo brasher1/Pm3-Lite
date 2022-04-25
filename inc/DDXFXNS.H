@@ -1,0 +1,12 @@
+void AFXAPI DDX_Length( CDataExchange* pDX, int nIDC, double value );
+void AFXAPI DDX_Text(CDataExchange *pDX, int nIDC, char *data);
+void AFXAPI DDX_Text(CDataExchange* pDX, int nIDC, short& value);
+void AFXAPI DDX_Zerofill(CDataExchange* pDX, int nIDC, short& value, int zeroes);
+void AFXAPI DDX_SeqFormat(CDataExchange* pDX, int nIDC, double &value);
+void AFXAPI DDV_InList(CDataExchange *pDX, int nIDC, const char *find);
+void AFXAPI DDX_CBString(CDataExchange *pDX, int nIDC, char *data);
+void AFXAPI DDX_Check(CDataExchange *pDX, int nIDC, short &data);
+void AFXAPI DDX_Text(CDataExchange *pDX, int nIDC, char &data);
+void AFXAPI DDX_Check(CDataExchange *pDX, int nIDC, char &data);
+void AFXAPI DDX_Radio(CDataExchange *pDX, int nIDC, short &data);
+void AFXAPI DDX_BitCheck(CDataExchange *pDX, int nIDC, short &data, short bit);

@@ -1,0 +1,10 @@
+// gettrans.cpp
+//
+#include "stdafx.h"
+#include "fotobrow.h"
+#include "common.h"
+#include "regfuncs.h"
+
+/////////////////////////////////////////////////////
+// all functions moved from gettrans to regfuncs
+//////////////////////////////////////////////////////

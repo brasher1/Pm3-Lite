@@ -1,0 +1,151 @@
+// fotobrow.odl : type library source for fotobrow.exe
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (fotobrow.tlb).
+
+[ uuid(055445A1-43DF-11CE-88A8-0020AF19DF3A), version(1.0) ]
+library fotobrow
+{
+	importlib("stdole32.tlb");
+	
+	//  Primary dispatch interface for CFotobrowDoc
+	
+	[ uuid(055445A2-43DF-11CE-88A8-0020AF19DF3A) ]
+	dispinterface IBitmap
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CFotobrowDoc)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CFotobrowDoc)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CFotobrowDoc
+	
+	[ uuid(055445A0-43DF-11CE-88A8-0020AF19DF3A) ]
+	coclass CFotobrowDoc
+	{
+		[default] dispinterface IBitmap;
+	};
+
+
+	//  Primary dispatch interface for CFotogDoc
+	
+	[ uuid(04CA7620-44E5-11CE-88A8-0020AF19DF3A) ]
+	dispinterface IFotogDoc
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CFotogDoc)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CFotogDoc)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CFotogDoc
+
+	[ uuid(04CA7621-44E5-11CE-88A8-0020AF19DF3A) ]
+	coclass CFotogDoc
+	{
+		[default] dispinterface IFotogDoc;
+	};
+
+
+	//  Primary dispatch interface for CMeasureDlg
+	
+	[ uuid(A1422180-4812-11CE-88A8-0020AF19DF3A) ]
+	dispinterface IMeasureDlg
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CMeasureDlg)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CMeasureDlg)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CMeasureDlg
+
+	[ uuid(A1422181-4812-11CE-88A8-0020AF19DF3A) ]
+	coclass CMeasureDlg
+	{
+		[default] dispinterface IMeasureDlg;
+	};
+
+
+	//  Primary dispatch interface for CFotobrowView
+	
+	[ uuid(6FB06130-62A9-11CE-9172-0020AF19DF3A) ]
+	dispinterface IFotobrowView
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CFotobrowView)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CFotobrowView)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CFotobrowView
+
+	[ uuid(6FB06131-62A9-11CE-9172-0020AF19DF3A) ]
+	coclass CFotobrowView
+	{
+		[default] dispinterface IFotobrowView;
+	};
+
+
+	//  Primary dispatch interface for CFrameMods
+	
+	[ uuid(593361D0-7253-11CE-9172-0020AF19DF3A) ]
+	dispinterface IFrameMods
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CFrameMods)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CFrameMods)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CFrameMods
+
+	[ uuid(593361D1-7253-11CE-9172-0020AF19DF3A) ]
+	coclass CFrameMods
+	{
+		[default] dispinterface IFrameMods;
+	};
+
+	//{{AFX_APPEND_ODL}}
+};

@@ -1,0 +1,42 @@
+Things that need fixing:
+X	1.  Fix problem with hidden fields being copied from grid when selected range
+		crosses a hidden column.
+	2.  Pasting to grids is not going thru the update cell code.  This means that the
+		hidden fields are not being updated.  Also means that changes are not written
+		to the database.
+X	3.	Grid controls are not updating content when units change.
+X	4.	Grid resizes itself to dialog default when receiving the focus.
+	5.	Column grid coming up can give "Error getting list" messagebox 3 or 4 times
+		in a row.
+X	6.	Need to handle start up better.  Things such as initial current element, etc.
+X	7.  Cylinder targets seem to be on their side.
+X	8.  Need to send update to 3D view when primitive parameters change in grids.
+	9.	Need to jump to current element in spreadsheet.
+X	10.	Need to create new primitive in drawlist when new row is added to grid.
+X	11.	Need to redisplay keyed in value in primitive grids (i.e. display what I think your
+		keyed in number was....key in 24", display 2')
+	12.	Make 3D fit view work with any element.
+	13.	Fix perspective in 3D view.  Currently has at least too large of a step size on the
+		zoom in and out.
+	14.	Somehow, you can get into the change cylinder code with a NULL current parent node.
+X	15.	Points need to be handled as just another node in the hierarchy.
+X	16.	Coordinate systems could/should be handled as hierarchy nodes (with respect to type
+		of thing).
+	17.	Need to add print to image views.
+	18.	Seems as though pixel picking rays have a problem with an image that doesn't have
+		a transform.  Not really problem, but its a really quick way to exit.
+	19.	GP's on inserting new cylinder manually into grid.
+X	20.	Transformation definition box does not default to safe values
+X	21.	Initial display of the element list should highlight the current node.
+	22.	Hierarchy editing needs to be implemented (Cut, Paste, Copy, and Delete).
+	23.	Cylinder center is not updated upon editing in grid.
+X	24.	Pyramids representing cameras are turned backward and are not positioned at the exact point they should be.
+
+Things done:
+02/12/97
+	1.  Moved unit change to a broadcast message.
+	2.  Added unit change message handler to column editor.
+	3.  Added unit change message handler to zone editor.
+	4.  Changed point grid to use unit change message.
+	5.
+	  

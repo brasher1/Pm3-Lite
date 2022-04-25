@@ -1,0 +1,254 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <setjmp.h>
+
+//#include <wingdi.h>
+//#define WINGDIAPI
+//#include <GL/gl.h>
+//#include <GL/glu.h>
+
+//extern "C" {
+#include "gl/glaux.h"
+//}
+#undef _WINDOWS_
+#define OLE2ANSI
+//#define __AFXDISP_H__
+#include "PtgCamera.h"
+#include "Ptg3DLineObj.h"
+#include "Ptg3DPyramidObj.h"
+#include "Ptg3DBoxObj.h"
+#include "Ptg3DCylinderObj.h"
+#include "Ptg3DCtorObj.h"
+#include "Ptg3DRtorObj.h"
+#include "Ptg3DConeObj.h"
+
+int outputLevel = 0;
+int debugOutputLevel = 0;
+//jmp_buf env;
+
+PtgCamera *theCamera = NULL;
+Ptg3DNode *theObjects = NULL;
+
+char *pszReviewModel = NULL;
+
+double latitude = 0.0;
+double longitude = 0.0;
+
+void addAxes( Ptg3DNode *theParent, GLfloat axisLength = 100.0 )
+{
+    Ptg3DNode *theAxes = new Ptg3DNode;
+    theAxes->setDrawStyle( Ptg3DNode::DS_SOLIDS );
+    Ptg3DLineObj *anAxis;
+    anAxis = new Ptg3DLineObj;
+    anAxis->setColor( 1.0, 0, 0, 0.4 );
+    anAxis->setLength( axisLength );
+    anAxis->setDirection( 1, 0, 0 );
+    anAxis->setName( "X-axis" );
+    theParent->addMember( anAxis );
+
+    anAxis = new Ptg3DLineObj;
+    anAxis->setColor( 0, 1.0, 0, 0.4 );
+    anAxis->setLength( axisLength );
+    anAxis->setDirection( 0, 1, 0 );
+    anAxis->setName( "Y-axis" );
+    theParent->addMember( anAxis );
+
+    anAxis = new Ptg3DLineObj;
+    anAxis->setColor( 0, 0, 1.0, 0.4 );
+    anAxis->setLength( axisLength );
+    anAxis->setDirection( 0, 0, 1 );
+    anAxis->setName( "Z-axis" );
+    theParent->addMember( anAxis );
+}
+
+void initCamera()
+{
+    theCamera = new PtgCamera;
+    theCamera->setPosition( 300.0, 0.0, 1000.0 );
+    theCamera->setClipping( 0.0, 1000000.0 );
+    theCamera->setOrthoClip( -500.0, 500.0, -500.0, 500.0 );
+    theCamera->setLookAt( 1477002, 1744709, 40696 );
+    theCamera->setLookDist( 10000 );
+
+theCamera->setLookAt( 0, 0, 0 );
+theCamera->setLookDist( 1000 );
+}
+
+void initElemList()
+{
+#if FALSE
+    theObjects = new Ptg3DNode;
+    theObjects->setColor( 1.0, 1.0, 1.0 );
+    theObjects->setDrawStyle( Ptg3DNode::DS_SOLIDS );
+//    theObjects->setDrawStyle( Ptg3DNode::DS_WIREFRAME );
+
+    addAxes( theObjects, 500.0 );
+    importReviewModel( pszReviewModel, theObjects );
+#else
+    VECTOR v = vector( 1, 12 );
+
+    theObjects = new Ptg3DNode;
+    theObjects->setColor( 1.0, 1.0, 1.0 );
+    theObjects->setDrawStyle( Ptg3DNode::DS_SOLIDS );
+//    theObjects->setDrawStyle( Ptg3DNode::DS_WIREFRAME );
+
+    addAxes( theObjects, 500.0 );
+
+    Ptg3DCylinderObj *theCyli = new Ptg3DCylinderObj;
+    theCyli->setHeight( 100.0 );
+    theCyli->setRadius( 25.0 );
+//    theObjects->addMember( theCyli );
+
+    v[1] = 1.0; v[2] = 0.0; v[3] = 0.0;
+    v[4] = 0.0; v[5] = 1.0; v[6] = 0.0;
+    v[7] = 0.0; v[8] = 0.0; v[9] = 1.0;
+    v[10] = 200.0; v[11] = 100.0; v[12] = 0.0;
+    
+    Ptg3DPyramidObj *thePyra = new Ptg3DPyramidObj;
+    thePyra->setColor( 0.5, 0.5, 0 );
+    thePyra->setHeight( 200.0 );
+    thePyra->setBaseDims( 100.0, 75.0 );
+    thePyra->setTopDims( 0.0, 0.0 );
+    thePyra->setOffsets( 60.0, 10.0 );
+    thePyra->setName( "Pyramid 1" );
+    thePyra->setMatrix( v );
+//    thePyra->setDrawStyle( Ptg3DNode::DS_WIREFRAME );
+//    theObjects->addMember( thePyra );
+
+    Ptg3DBoxObj *theBox;
+    theBox = new Ptg3DBoxObj;
+    theBox->setXLen( 100.0 );
+    theBox->setYLen( 200.0 );
+    theBox->setZLen( 300.0 );
+    theBox->setName( "Box 2" );
+    theBox->setColor( 1.0, 0.0, 0.0 );
+    theBox->setMatrix( v );
+    theObjects->addMember( theBox );
+
+    theBox = new Ptg3DBoxObj;
+    theBox->setXLen( 50.0 );
+    theBox->setYLen( 100.0 );
+    theBox->setZLen( 150.0 );
+    theBox->setColor( 1.0, 0.5, 0.5 );
+    theBox->setName( "Box 1" );
+    theObjects->addMember( theBox );
+
+    v[10] = 400.0;
+    theBox = new Ptg3DBoxObj;
+    theBox->setXLen( 25.0 );
+    theBox->setYLen( 200.0 );
+    theBox->setZLen( 300.0 );
+    theBox->setName( "Box 3" );
+    theBox->setColor( 0.5, 1.0, 0.0 );
+    theBox->setMatrix( v );
+    theObjects->addMember( theBox );
+#endif
+}
+
+void CALLBACK handleResize( int w, int h )
+{
+    glViewport( 0, 0, w, h );
+    theCamera->setAspectRatio( (GLfloat)w/(GLfloat)h );
+}
+
+void CALLBACK handleUpKey( void )
+{
+//    if( ((XKeyEvent *)(gldacs->event))->state & ControlMask )
+//	latitude -= 30.0;
+//    else
+	latitude -= 5.0;
+    theCamera->setRotation( 0.0, latitude, longitude );
+    fprintf( stderr, "latitude, longitude = %lf, %lf\n", latitude, longitude );
+}
+
+void CALLBACK handleDownKey( void )
+{
+//    if( ((XKeyEvent *)(gldacs->event))->state & ControlMask )
+//	latitude += 30.0;
+//    else
+	latitude += 5.0;
+    theCamera->setRotation( 0.0, latitude, longitude );
+    fprintf( stderr, "latitude, longitude = %lf, %lf\n", latitude, longitude );
+}
+
+void CALLBACK handleLeftKey( void )
+{
+//    if( ((XKeyEvent *)(gldacs->event))->state & ControlMask )
+//	longitude -= 30.0;
+//    else
+	longitude -= 5.0;
+    theCamera->setRotation( 0.0, latitude, longitude );
+    fprintf( stderr, "latitude, longitude = %lf, %lf\n", latitude, longitude );
+}
+
+void CALLBACK handleRightKey( void )
+{
+//    if( ((XKeyEvent *)(gldacs->event))->state & ControlMask )
+//	longitude += 30.0;
+//    else
+	longitude += 5.0;
+    theCamera->setRotation( 0.0, latitude, longitude );
+    fprintf( stderr, "latitude, longitude = %lf, %lf\n", latitude, longitude );
+}
+
+void CALLBACK drawScene( void )
+{
+    glEnable( GL_LIGHTING );
+    glEnable( GL_LIGHT0 );
+    glEnable( GL_DEPTH_TEST );
+    glEnable( GL_COLOR_MATERIAL );
+    glEnable( GL_AUTO_NORMAL );
+    glEnable( GL_CULL_FACE );
+    glShadeModel( GL_SMOOTH );
+    glLightModeli( GL_LIGHT_MODEL_LOCAL_VIEWER, 2 );
+    glColorMaterial( GL_FRONT_AND_BACK, GL_AMBIENT );
+    GLfloat v[4] = { 0.8, 0.8, 0.8, 1.0 };
+    glLightModelfv( GL_LIGHT_MODEL_AMBIENT, v );
+
+    glClearColor( 0.0, 0.0, 0.0, 1.0 );
+    glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
+
+    glPushMatrix();
+    glLoadIdentity();
+
+    glMatrixMode( GL_PROJECTION );
+    glLoadIdentity();
+    glMatrixMode( GL_MODELVIEW );
+
+    theCamera->draw();
+fprintf( stderr, "drawScene(): Before calling theObjects->draw()\n" );
+    theObjects->draw();
+//    glCallList( gliDrawlist );
+fprintf( stderr, "drawScene(): After calling theObjects->draw()\n" );
+
+    glPopMatrix();
+    
+    glFlush();
+}
+
+int main(int argc, char** argv)
+{
+    if( argc != 2 )
+    {
+	fprintf( stderr, "USAGE: testogl review_ascii_file_name\n" );
+//	exit( 0 );
+    }
+
+    pszReviewModel = argv[1];
+
+    initCamera();
+    initElemList();
+
+    auxInitDisplayMode( AUX_SINGLE | AUX_RGB | AUX_DIRECT );
+    auxInitPosition( 0, 0, 400, 400 );
+    auxInitWindow( argv[0] );
+
+    auxReshapeFunc( handleResize );
+
+    auxKeyFunc( AUX_UP, handleUpKey );
+    auxKeyFunc( AUX_DOWN, handleDownKey );
+    auxKeyFunc( AUX_LEFT, handleLeftKey );
+    auxKeyFunc( AUX_RIGHT, handleRightKey );
+
+    auxMainLoop( drawScene );
+}

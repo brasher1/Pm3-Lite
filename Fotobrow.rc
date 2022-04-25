@@ -1,0 +1,2696 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "#include ""afxres.rc""  \t// Standard components\r\n"
+    "#include ""afxprint.rc""\t// printing/print preview resources\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\fotobrow.ico"
+IDR_BITMAPTYPE          ICON    DISCARDABLE     "res\\fotobdoc.ico"
+IDR_ZONEGRID2           ICON    DISCARDABLE     "res\\icon1.ico"
+IDR_GRAPHICS            ICON    DISCARDABLE     "res\\ico00001.ico"
+IDR_COLUMNGRID          ICON    DISCARDABLE     "res\\ico00002.ico"
+IDR_ELEMENTLIST         ICON    DISCARDABLE     "res\\idr_elem.ico"
+IDI_SMALL_MAINFRAME     ICON    DISCARDABLE     "res\\small_ma.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\toolbar.bmp"
+IDR_MONO_EDITBARVERT    BITMAP  DISCARDABLE     "res\\medtvert.bmp"
+IDR_MONO_EDITBARHORZ    BITMAP  DISCARDABLE     "res\\medthorz.bmp"
+IDR_COLOR_EDITBARVERT   BITMAP  DISCARDABLE     "res\\cedtvert.bmp"
+IDR_COLOR_EDITBARHORZ   BITMAP  DISCARDABLE     "res\\cedthorz.bmp"
+IDR_IMAGETOOLS          BITMAP  DISCARDABLE     "res\\idr_imag.bmp"
+IDR_GRAPHICS            BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_BACKGROUND          BITMAP  DISCARDABLE     "res\\backgrou.bmp"
+IDR_VIEWS               BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDR_MEASURE             BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_EQUIPMENT           BITMAP  DISCARDABLE     "res\\equipmen.bmp"
+IDB_IMAGE               BITMAP  DISCARDABLE     "res\\image.bmp"
+IDB_ABD_BIG             BITMAP  DISCARDABLE     "res\\ABD1.BMP"
+IDB_ABD_MED             BITMAP  DISCARDABLE     "res\\ABD2.BMP"
+IDB_ABD_SMALL           BITMAP  DISCARDABLE     "res\\ABD3.BMP"
+IDB_PM3_LOGO_old        BITMAP  DISCARDABLE     "res\\PM3LLOGO.BMP"
+IDB_PM3_SYMBOL          BITMAP  DISCARDABLE     "res\\pms_symb.bmp"
+IDB_CYLINDER            BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_CONE                BITMAP  DISCARDABLE     "res\\cone.bmp"
+IDB_BOX                 BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_NODE                BITMAP  DISCARDABLE     "res\\node.bmp"
+IDB_EYE_OPEN            BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+IDB_EYE_CLOSED          BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_PM3_BACKGROUND      BITMAP  DISCARDABLE     "res\\PM3BACK.BMP"
+IDB_SPLASH              BITMAP  DISCARDABLE     "Splsh16.bmp"
+IDB_ANNOY_BACKGROUND    BITMAP  DISCARDABLE     "res\\annoy_ba.bmp"
+IDB_OGL_GREEN           BITMAP  DISCARDABLE     "res\\ogl_gree.bmp"
+IDB_OGL_RED             BITMAP  DISCARDABLE     "res\\ogl_red.bmp"
+IDB_OGL_YELLOW          BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDB_OGL_BLUE            BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_OGL_GREY            BITMAP  DISCARDABLE     "res\\ogl_grey.bmp"
+IDB_OGL_PURPLE          BITMAP  DISCARDABLE     "res\\ogl_purp.bmp"
+IDB_OGL_CYAN            BITMAP  DISCARDABLE     "res\\ogl_cyan.bmp"
+IDB_OGL_LT_BLUE         BITMAP  DISCARDABLE     "res\\ogl_lt_b.bmp"
+IDB_OGL_LT_RED          BITMAP  DISCARDABLE     "res\\ogl_lt_r.bmp"
+IDB_OGL_LT_GREEN        BITMAP  DISCARDABLE     "res\\ogl_lt_g.bmp"
+IDB_OGL_LT_CYAN         BITMAP  DISCARDABLE     "res\\ogl_lt_c.bmp"
+IDB_OGL_LT_MAGENTA      BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+IDB_OGL_LT_YELLOW       BITMAP  DISCARDABLE     "res\\bmp00009.bmp"
+IDB_OGL_LT_WHITE        BITMAP  DISCARDABLE     "res\\ogl_lt_w.bmp"
+IDB_OGL_BLACK           BITMAP  DISCARDABLE     "res\\ogl_blac.bmp"
+IDB_CYLINDER2           BITMAP  DISCARDABLE     "res\\bmp00010.bmp"
+IDB_SPLASH_ALPHA        BITMAP  DISCARDABLE     "res\\bmp00011.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Pr&ojects",                   ID_FILE_PROJECTS
+        POPUP "Import"
+        BEGIN
+            MENUITEM "Survey Data",                 ID_FILE_IMPORT_SURVEYDATA
+
+            MENUITEM "Review Model",                ID_FILE_IMPORT_REVIEWMODEL
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Get Work",                    ID_FILE_GET_WORK
+        MENUITEM "Save Work",                   ID_FILE_SAVE_WORK
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "&Zones",                      ID_EDIT_ZONES
+        MENUITEM "Co&lumns",                    ID_EDIT_COLUMNS
+        MENUITEM "&Images",                     ID_EDIT_IMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Equip Data",                 ID_EDIT_EQUIPDATA
+        MENUITEM "Equi&p Images",               ID_EDIT_EQUIPIMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Transformations",            ID_EDIT_TRANSFORMATIONS
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "S&elect",                     IDC_SELECT
+        MENUITEM "Zoom &In",                    IDC_ZOOMIN
+        MENUITEM "Zoom &Out",                   IDC_ZOOMOUT
+        MENUITEM "&Center",                     IDC_CENTER
+        MENUITEM "Clip &Volume",                IDC_CLIPVOLUME
+        MENUITEM "O&rthogonal",                 IDC_ORTHO
+        MENUITEM "&Perspective",                IDC_PERSPECTIVE
+        MENUITEM "R&ays",                       IDC_RAYS, CHECKED
+        MENUITEM "Overla&y",                    IDC_OVERLAY, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Graphic",                    ID_VIEW_GRAPHIC
+        MENUITEM "Element &List",               ID_VIEW_ELEMENTLIST
+    END
+    POPUP "&Measure"
+    BEGIN
+        MENUITEM "&Point",                      IDC_MEASURE
+        MENUITEM "&Cylinder by Edge",           ID_MEASURE_CYLINDERBYEDGE
+        MENUITEM "Quick Cylinder",              ID_MEASURE_QUICKCYLINDER
+        MENUITEM "Circle by Edge",              ID_MEASURE_CIRCLEBYEDGE
+        MENUITEM "Circle by 3D Point",          ID_MEASURE_CIRCLEBY3DPOINT
+        MENUITEM "Cylinder by Endpoints",       ID_MEASURE_CYLINDERBYENDPOINTS
+
+    END
+    POPUP "&Settings"
+    BEGIN
+        MENUITEM "&Options",                    ID_SETTINGS_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Index",                      ID_HELP_INDEX
+        MENUITEM "&Using Help",                 ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&About fotobrow...",          ID_APP_ABOUT
+    END
+END
+
+IDR_BITMAPTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Pr&ojects",                   ID_FILE_PROJECTS
+        POPUP "Import"
+        BEGIN
+            MENUITEM "Survey Data",                 ID_FILE_IMPORT_SURVEYDATA
+
+            MENUITEM "Review Model",                ID_FILE_IMPORT_REVIEWMODEL
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Get Work",                    ID_FILE_GET_WORK
+        MENUITEM "Save Work",                   ID_FILE_SAVE_WORK
+        MENUITEM SEPARATOR
+        MENUITEM "&Print",                      ID_FILE_PRINT
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Zones",                      ID_EDIT_ZONES
+        MENUITEM "Co&lumns",                    ID_EDIT_COLUMNS
+        MENUITEM "&Images",                     ID_EDIT_IMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Equip Data",                 ID_EDIT_EQUIPDATA
+        MENUITEM "Equi&p Images",               ID_EDIT_EQUIPIMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "New &Region",                 ID_VIEW_DEFINEREGION
+        MENUITEM "&Delete Region",              ID_VIEW_DELETEREGION
+        MENUITEM "&Label Region",               ID_VIEW_LABELREGION
+        MENUITEM SEPARATOR
+        MENUITEM "&Transformations",            ID_EDIT_TRANSFORMATIONS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "S&elect",                     IDC_SELECT
+        MENUITEM "Zoom &In",                    IDC_ZOOMIN
+        MENUITEM "Zoom &Out",                   IDC_ZOOMOUT
+        MENUITEM "&Center",                     IDC_CENTER
+        MENUITEM "Clip &Volume",                IDC_CLIPVOLUME
+        MENUITEM "O&rthogonal",                 IDC_ORTHO
+        MENUITEM "&Perspective",                IDC_PERSPECTIVE
+        MENUITEM "R&ays",                       IDC_RAYS, CHECKED
+        MENUITEM "Overla&y",                    IDC_OVERLAY, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Graphic",                    ID_VIEW_GRAPHIC
+        MENUITEM "Element &List",               ID_VIEW_ELEMENTLIST
+    END
+    POPUP "&Measure"
+    BEGIN
+        MENUITEM "&Point",                      IDC_MEASURE
+        MENUITEM "&Cylinder by Edge",           ID_MEASURE_CYLINDERBYEDGE
+        MENUITEM "Quick Cylinder",              ID_MEASURE_QUICKCYLINDER
+        MENUITEM "Circle by Edge",              ID_MEASURE_CIRCLEBYEDGE
+        MENUITEM "Circle by 3D Point",          ID_MEASURE_CIRCLEBY3DPOINT
+        MENUITEM "Cylinder by Endpoints",       ID_MEASURE_CYLINDERBYENDPOINTS
+
+    END
+    POPUP "&Settings"
+    BEGIN
+        MENUITEM "&Options",                    ID_SETTINGS_OPTIONS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "Tile &Horz",                  ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Vert",                  ID_WINDOW_TILE_VERT
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Index",                      ID_HELP_INDEX
+        MENUITEM "&Using Help",                 ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&About fotobrow...",          ID_APP_ABOUT
+    END
+END
+
+IDR_GRAPHICS MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Pr&ojects",                   ID_FILE_PROJECTS
+        POPUP "Import"
+        BEGIN
+            MENUITEM "Survey Data",                 ID_FILE_IMPORT_SURVEYDATA
+
+            MENUITEM "Review Model",                ID_FILE_IMPORT_REVIEWMODEL
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Get Work",                    ID_FILE_GET_WORK
+        MENUITEM "Save Work",                   ID_FILE_SAVE_WORK
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Zones",                      ID_EDIT_ZONES
+        MENUITEM "Co&lumns",                    ID_EDIT_COLUMNS
+        MENUITEM "&Images",                     ID_EDIT_IMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Equip Data",                 ID_EDIT_EQUIPDATA
+        MENUITEM "Equi&p Images",               ID_EDIT_EQUIPIMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Transformations",            ID_EDIT_TRANSFORMATIONS
+    END
+    POPUP "&Graphics"
+    BEGIN
+        MENUITEM "&Cameras",                    IDC_CAMERA
+        MENUITEM "&Targets",                    IDC_TARGET
+        MENUITEM "&Scale",                      IDC_SCALE
+        MENUITEM "&Zoom",                       IDC_ZOOM
+        MENUITEM "&Image",                      IDC_IMAGE
+        MENUITEM "Cli&p Zones",                 ID_GRAPHICS_CLIPZONES
+        MENUITEM "&Fit View",                   ID_GRAPHICS_FITVIEW
+        MENUITEM "Light",                       ID_GRAPHICS_LIGHT
+        MENUITEM "OpenGL Settings",             ID_GRAPHICS_OPENGLSETTINGS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "S&elect",                     IDC_SELECT
+        MENUITEM "Zoom &In",                    IDC_ZOOMIN
+        MENUITEM "Zoom &Out",                   IDC_ZOOMOUT
+        MENUITEM "&Center",                     IDC_CENTER
+        MENUITEM "Clip &Volume",                IDC_CLIPVOLUME
+        MENUITEM "O&rthogonal",                 IDC_ORTHO
+        MENUITEM "&Perspective",                IDC_PERSPECTIVE
+        MENUITEM "&Fill Mode",                  ID_VIEW_FILLMODE
+        MENUITEM "R&ays",                       IDC_RAYS, CHECKED
+        MENUITEM "Overla&y",                    IDC_OVERLAY, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Graphic",                    ID_VIEW_GRAPHIC
+        MENUITEM "Element &List",               ID_VIEW_ELEMENTLIST
+    END
+    POPUP "&Measure"
+    BEGIN
+        MENUITEM "&Point",                      IDC_MEASURE
+        MENUITEM "&Cylinder by Edge",           ID_MEASURE_CYLINDERBYEDGE
+        MENUITEM "Quick Cylinder",              ID_MEASURE_QUICKCYLINDER
+        MENUITEM "Circle by Edge",              ID_MEASURE_CIRCLEBYEDGE
+        MENUITEM "Circle by 3D Point",          ID_MEASURE_CIRCLEBY3DPOINT
+    END
+    POPUP "&Settings"
+    BEGIN
+        MENUITEM "&Options",                    ID_SETTINGS_OPTIONS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "Tile &Horz",                  ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Vert",                  ID_WINDOW_TILE_VERT
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Index",                      ID_HELP_INDEX
+        MENUITEM "&Using Help",                 ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&About fotobrow...",          ID_APP_ABOUT
+    END
+END
+
+IDR_ZONEGRID2 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Pr&ojects",                   ID_FILE_PROJECTS
+        POPUP "Import"
+        BEGIN
+            MENUITEM "Survey Data",                 ID_FILE_IMPORT_SURVEYDATA
+
+            MENUITEM "Review Model",                ID_FILE_IMPORT_REVIEWMODEL
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Get Work",                    ID_FILE_GET_WORK
+        MENUITEM "Save Work",                   ID_FILE_SAVE_WORK
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Zones",                      ID_EDIT_ZONES
+        MENUITEM "Co&lumns",                    ID_EDIT_COLUMNS
+        MENUITEM "&Images",                     ID_EDIT_IMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Equip Data",                 ID_EDIT_EQUIPDATA
+        MENUITEM "Equi&p Images",               ID_EDIT_EQUIPIMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Transformations",            ID_EDIT_TRANSFORMATIONS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "S&elect",                     IDC_SELECT
+        MENUITEM "Zoom &In",                    IDC_ZOOMIN
+        MENUITEM "Zoom &Out",                   IDC_ZOOMOUT
+        MENUITEM "&Center",                     IDC_CENTER
+        MENUITEM "Clip &Volume",                IDC_CLIPVOLUME
+        MENUITEM "O&rthogonal",                 IDC_ORTHO
+        MENUITEM "&Perspective",                IDC_PERSPECTIVE
+        MENUITEM "R&ays",                       IDC_RAYS, CHECKED
+        MENUITEM "Overla&y",                    IDC_OVERLAY, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Graphic",                    ID_VIEW_GRAPHIC
+        MENUITEM "Element &List",               ID_VIEW_ELEMENTLIST
+    END
+    POPUP "&Measure"
+    BEGIN
+        MENUITEM "&Point",                      IDC_MEASURE
+        MENUITEM "&Cylinder by Edge",           ID_MEASURE_CYLINDERBYEDGE
+        MENUITEM "Quick Cylinder",              ID_MEASURE_QUICKCYLINDER
+        MENUITEM "Circle by Edge",              ID_MEASURE_CIRCLEBYEDGE
+        MENUITEM "Circle by 3D Point",          ID_MEASURE_CIRCLEBY3DPOINT
+    END
+    POPUP "&Settings"
+    BEGIN
+        MENUITEM "&Options",                    ID_SETTINGS_OPTIONS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "Tile &Horz",                  ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Vert",                  ID_WINDOW_TILE_VERT
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Index",                      ID_HELP_INDEX
+        MENUITEM "&Using Help",                 ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&About fotobrow...",          ID_APP_ABOUT
+    END
+END
+
+IDR_COLUMNGRID MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Pr&ojects",                   ID_FILE_PROJECTS
+        POPUP "Import"
+        BEGIN
+            MENUITEM "Survey Data",                 ID_FILE_IMPORT_SURVEYDATA
+
+            MENUITEM "Review Model",                ID_FILE_IMPORT_REVIEWMODEL
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Get Work",                    ID_FILE_GET_WORK
+        MENUITEM "Save Work",                   ID_FILE_SAVE_WORK
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Zones",                      ID_EDIT_ZONES
+        MENUITEM "Co&lumns",                    ID_EDIT_COLUMNS
+        MENUITEM "&Images",                     ID_EDIT_IMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Equip Data",                 ID_EDIT_EQUIPDATA
+        MENUITEM "Equi&p Images",               ID_EDIT_EQUIPIMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Transformations",            ID_EDIT_TRANSFORMATIONS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "S&elect",                     IDC_SELECT
+        MENUITEM "Zoom &In",                    IDC_ZOOMIN
+        MENUITEM "Zoom &Out",                   IDC_ZOOMOUT
+        MENUITEM "&Center",                     IDC_CENTER
+        MENUITEM "Clip &Volume",                IDC_CLIPVOLUME
+        MENUITEM "O&rthogonal",                 IDC_ORTHO
+        MENUITEM "&Perspective",                IDC_PERSPECTIVE
+        MENUITEM "R&ays",                       IDC_RAYS, CHECKED
+        MENUITEM "Overla&y",                    IDC_OVERLAY, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Graphic",                    ID_VIEW_GRAPHIC
+        MENUITEM "Element &List",               ID_VIEW_ELEMENTLIST
+    END
+    POPUP "&Measure"
+    BEGIN
+        MENUITEM "&Point",                      IDC_MEASURE
+        MENUITEM "&Cylinder by Edge",           ID_MEASURE_CYLINDERBYEDGE
+        MENUITEM "Quick Cylinder",              ID_MEASURE_QUICKCYLINDER
+        MENUITEM "Circle by Edge",              ID_MEASURE_CIRCLEBYEDGE
+        MENUITEM "Circle by 3D Point",          ID_MEASURE_CIRCLEBY3DPOINT
+    END
+    POPUP "&Settings"
+    BEGIN
+        MENUITEM "&Options",                    ID_SETTINGS_OPTIONS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "Tile &Horz",                  ID_WINDOW_TILE_HORZ
+        MENUITEM "Tile &Vert",                  ID_WINDOW_TILE_VERT
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Index",                      ID_HELP_INDEX
+        MENUITEM "&Using Help",                 ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&About fotobrow...",          ID_APP_ABOUT
+    END
+END
+
+IDR_ELEMENTLIST MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "Pr&ojects",                   ID_FILE_PROJECTS
+        POPUP "Import"
+        BEGIN
+            MENUITEM "Survey Data",                 ID_FILE_IMPORT_SURVEYDATA
+
+            MENUITEM "Review Model",                ID_FILE_IMPORT_REVIEWMODEL
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Get Work",                    ID_FILE_GET_WORK
+        MENUITEM "Save Work",                   ID_FILE_SAVE_WORK
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "&Zones",                      ID_EDIT_ZONES
+        MENUITEM "Co&lumns",                    ID_EDIT_COLUMNS
+        MENUITEM "&Images",                     ID_EDIT_IMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Equip Data",                 ID_EDIT_EQUIPDATA
+        MENUITEM "Equi&p Images",               ID_EDIT_EQUIPIMAGES
+        MENUITEM SEPARATOR
+        MENUITEM "&Transformations",            ID_EDIT_TRANSFORMATIONS
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "S&elect",                     IDC_SELECT
+        MENUITEM "Zoom &In",                    IDC_ZOOMIN
+        MENUITEM "Zoom &Out",                   IDC_ZOOMOUT
+        MENUITEM "&Center",                     IDC_CENTER
+        MENUITEM "Clip &Volume",                IDC_CLIPVOLUME
+        MENUITEM "O&rthogonal",                 IDC_ORTHO
+        MENUITEM "&Perspective",                IDC_PERSPECTIVE
+        MENUITEM "R&ays",                       IDC_RAYS, CHECKED
+        MENUITEM "Overla&y",                    IDC_OVERLAY, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "&Graphic",                    ID_VIEW_GRAPHIC
+        MENUITEM "Element &List",               ID_VIEW_ELEMENTLIST
+    END
+    POPUP "&Measure"
+    BEGIN
+        MENUITEM "&Point",                      IDC_MEASURE
+        MENUITEM "&Cylinder by Edge",           ID_MEASURE_CYLINDERBYEDGE
+        MENUITEM "Quick Cylinder",              ID_MEASURE_QUICKCYLINDER
+        MENUITEM "Circle by Edge",              ID_MEASURE_CIRCLEBYEDGE
+        MENUITEM "Circle by 3D Point",          ID_MEASURE_CIRCLEBY3DPOINT
+    END
+    POPUP "&Settings"
+    BEGIN
+        MENUITEM "&Options",                    ID_SETTINGS_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Index",                      ID_HELP_INDEX
+        MENUITEM "&Using Help",                 ID_HELP_USING
+        MENUITEM SEPARATOR
+        MENUITEM "&About fotobrow...",          ID_APP_ABOUT
+    END
+END
+
+IDR_MEMBER_LIST_POP_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Member List"
+    BEGIN
+        MENUITEM "Cut",                         ID_MEMBERLIST_CUT
+        MENUITEM "Copy",                        ID_MEMBERLIST_COPY
+        MENUITEM "Paste",                       ID_MEMBERLIST_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Delete",                      ID_MEMBERLIST_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Calc Circle from 3D Points",  ID_MEMBERLIST_CALC_CIRC_3DPOINTS
+
+        MENUITEM SEPARATOR
+        MENUITEM "Set as Reference Node",       ID_MEMBERLIST_SETASREFERENCENODE
+
+        POPUP "Visible"
+        BEGIN
+            MENUITEM "WireFrame",                   ID_MEMBERLIST_VISIBLE_WIREFRAME
+
+            MENUITEM "Solid",                       ID_MEMBERLIST_VISIBLE_SOLID
+
+            MENUITEM "Invisible",                   ID_MEMBERLIST_VISIBLE_INVISIBLE
+
+        END
+        MENUITEM "Color",                       ID_MEMBERLIST_COLOR
+        MENUITEM SEPARATOR
+        MENUITEM "Save node to DGN",            ID_MEMBERLIST_SAVEDGN
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_ACCEL_COPYGRID,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_BITMAPTYPE ACCELERATORS DISCARDABLE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_DOWN,        ID_ACCEL_SCROLLDOWN,    VIRTKEY, NOINVERT
+    VK_DOWN,        ID_ACCEL_SCROLLPAGEDOWN, VIRTKEY, CONTROL, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F10,         ID_ACCEL_FITTOVIEW,     VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        ID_ACCEL_SCROLLLEFT,    VIRTKEY, NOINVERT
+    VK_LEFT,        ID_ACCEL_SCROLLPAGELEFT, VIRTKEY, CONTROL, NOINVERT
+    VK_RIGHT,       ID_ACCEL_SCROLLRIGHT,   VIRTKEY, NOINVERT
+    VK_RIGHT,       ID_ACCEL_SCROLLPAGERIGHT, VIRTKEY, CONTROL, NOINVERT
+    VK_UP,          ID_ACCEL_SCROLLUP,      VIRTKEY, NOINVERT
+    VK_UP,          ID_ACCEL_SCROLLPAGEUP,  VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_GRAPHICS ACCELERATORS DISCARDABLE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_ACCEL_COPYGRID,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F11,         ID_SET_PERSPECTIVE,     VIRTKEY, CONTROL, NOINVERT
+    VK_F12,         ID_SET_ORTHO,           VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_COLUMNGRID ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_ACCEL_COPYGRID,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_DELETE_COLUMN,       VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ZONEGRID2 ACCELERATORS DISCARDABLE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_ACCEL_COPYGRID,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_DELETE_ZONE,         VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDD_3POINTS ACCELERATORS DISCARDABLE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_ACCEL_COPYGRID,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_DELETE_ZONE,         VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_ELEMENTLIST ACCELERATORS DISCARDABLE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_MEMBERLIST_DELETE,   VIRTKEY, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  34, 22, 221, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About PM³"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "PM³ Lite",IDC_STATIC,145,28,72,8
+    LTEXT           "Copyright © 1995",IDC_STATIC,145,50,72,8
+    DEFPUSHBUTTON   "OK",IDOK,176,6,32,14,WS_GROUP
+    LTEXT           "Version 2.99.107",IDC_STATIC,145,39,72,8
+    LTEXT           "As Built Data, Inc.",IDC_STATIC,145,61,72,8
+END
+
+IDD_RESULTS DIALOG DISCARDABLE  0, 0, 185, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Results"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,34,72,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,100,72,50,14
+END
+
+IDD_GENERAL DIALOG DISCARDABLE  0, 0, 295, 111
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "General"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Point 1",IDC_STATIC,9,14,28,7
+    LTEXT           "Point 2",IDC_STATIC,9,30,28,7
+    EDITTEXT        IDC_EDIT1,41,12,68,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,41,28,68,12,ES_AUTOHSCROLL
+    LTEXT           "East",IDC_STATIC,61,3,30,7
+END
+
+IDD_3POINTS DIALOG DISCARDABLE  0, 0, 476, 68
+STYLE DS_3DLOOK | WS_CHILD
+MENU IDR_BITMAPTYPE
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Tab1",IDC_SPREADSHEET_TAGS,"SysTabControl32",
+                    TCS_BUTTONS | TCS_RAGGEDRIGHT | TCS_TOOLTIPS | NOT 
+                    WS_VISIBLE,0,53,306,15
+    CONTROL         "",IDC_3DPOINTGRID,
+                    "{4C1DF000-D3FF-11CE-84BA-484F4DF914E6}",WS_TABSTOP,0,2,
+                    476,50
+END
+
+IDD_3DPOINTS DIALOG DISCARDABLE  0, 0, 411, 244
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_SETTINGS DIALOG DISCARDABLE  0, 0, 215, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Option Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,159,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,159,23,50,14
+    CONTROL         "Imperial",IDC_UNITS,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,20,42,10
+    CONTROL         "Metric",IDC_UNITS2,"Button",BS_AUTORADIOBUTTON,53,20,33,
+                    10
+    GROUPBOX        "Units",IDC_STATIC,3,9,86,25,WS_GROUP
+    LTEXT           "Image Path",IDC_STATIC,2,45,37,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_IMAGEPATH,42,42,166,12,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+END
+
+IDD_ZONEINPUT DIALOG DISCARDABLE  0, 0, 223, 92
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "ZONESRC",IDD_ZONETABLE,"DataTbl32",NOT WS_VISIBLE,0,0,
+                    222,57
+END
+
+IDD_COLUMNGRID DIALOG DISCARDABLE  0, 0, 327, 92
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "COLUMNSRC",IDD_COLUMNTABLE,"DataTbl32",WS_BORDER | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,0,0,282,57
+END
+
+IDD_IMAGES DIALOG DISCARDABLE  0, 0, 185, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Images"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,23,50,14
+    LISTBOX         IDC_IMAGELIST,3,2,122,88,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_SELECT_ZONE DIALOG DISCARDABLE  0, 0, 185, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Zone Selection"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,23,50,14
+    LISTBOX         IDC_ZONELIST,3,2,120,87,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_COORD_XFORM DIALOG DISCARDABLE  0, 0, 273, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Coordinate Transformation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_POINT1_EAST,32,26,58,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_POINT1_NORTH,122,26,58,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_POINT2_EAST,32,49,58,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_POINT2_NORTH,122,49,58,13,ES_AUTOHSCROLL
+    CONTROL         "East",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    13,76,34,10
+    CONTROL         "North",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,55,76,34,
+                    10
+    CONTROL         "West",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,97,76,34,
+                    10
+    CONTROL         "South",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,139,76,34,
+                    10
+    EDITTEXT        IDC_CALC_EAST,25,125,58,13,ES_AUTOHSCROLL | WS_GROUP
+    EDITTEXT        IDC_CALC_NORTH,105,125,58,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CALC_UP,180,125,58,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REAL_EAST,25,150,58,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REAL_NORTH,105,150,58,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_REAL_UP,180,150,58,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,217,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,217,23,50,14
+    GROUPBOX        "Axis Direction",IDC_STATIC,2,2,194,95
+    GROUPBOX        "One Real World Point",IDC_STATIC,2,102,244,65
+    LTEXT           "Point 1",IDC_STATIC,6,16,30,7
+    LTEXT           "Point 2",IDC_STATIC,6,40,30,7
+    LTEXT           "East",IDC_STATIC,14,29,15,7
+    LTEXT           "East",IDC_STATIC,14,52,15,7
+    LTEXT           "North",IDC_STATIC,97,28,21,7
+    LTEXT           "North",IDC_STATIC,97,51,21,7
+    GROUPBOX        "Which Axis does direction define",IDC_STATIC,6,64,185,
+                    29
+    LTEXT           "FM³ 3D Coordinate",IDC_STATIC,6,114,63,7
+    LTEXT           "Desired 3D Coordinate",IDC_STATIC,6,140,94,7
+    LTEXT           "East",IDC_STATIC,7,128,15,10
+    LTEXT           "North",IDC_STATIC,85,128,20,10
+    LTEXT           "Up",IDC_STATIC,165,127,13,10
+    LTEXT           "East",IDC_STATIC,7,153,15,10
+    LTEXT           "North",IDC_STATIC,85,153,19,10
+    LTEXT           "Up",IDC_STATIC,165,151,13,10
+    PUSHBUTTON      "Import",ID_IMPORT_DATA,217,41,50,14
+    PUSHBUTTON      "&Make Identity",ID_MAKE_IDENTITY,217,64,50,14
+END
+
+IDD_ENGINEERING DIALOG DISCARDABLE  0, 0, 334, 170
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Engineering"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name",IDC_STATIC,9,7,27,10
+    EDITTEXT        IDC_NAME,38,5,161,12,ES_AUTOHSCROLL
+END
+
+IDD_CONSTRUCTION DIALOG DISCARDABLE  0, 0, 289, 150
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Progress Monitoring"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name",IDC_STATIC,9,7,27,10
+    EDITTEXT        IDC_NAME,38,5,161,12,ES_AUTOHSCROLL
+END
+
+IDD_MAINTANANCE DIALOG DISCARDABLE  0, 0, 318, 170
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Maintenance"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_EQ_LIST,3,47,313,74,LBS_SORT | LBS_USETABSTOPS | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Area",IDC_AREA,2,36,35,11
+    PUSHBUTTON      "Equip Name",IDC_EQ_NAME,37,36,82,11
+    PUSHBUTTON      "Description",IDC_EQ_DESCRIPTION,119,36,88,11
+    PUSHBUTTON      "Due Date",IDC_DUE_DATE,207,36,54,11
+    PUSHBUTTON      "Insp. Date",IDC_INSPECTION_DATE,261,36,54,11
+    PUSHBUTTON      "Maint. Schedule",IDC_MAINT_SCH,3,122,79,12
+    PUSHBUTTON      "Parts Inventory",IDC_PARTS_INV,3,137,79,12
+    PUSHBUTTON      "Isolation List",IDC_ISOLATION_LIST,3,153,79,12
+    LTEXT           "Maint. History",IDC_STATIC,89,131,48,10
+    PUSHBUTTON      "by Equipment",IDC_BY_EQUIPMENT,138,122,79,12
+    PUSHBUTTON      "by Procedure",IDC_BY_PROCEDURE,138,137,79,12
+    LTEXT           "Type",IDC_STATIC,3,4,21,10
+    COMBOBOX        IDC_TYPE_FILTER,25,2,56,61,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Area",IDC_STATIC,94,5,21,9
+    COMBOBOX        IDC_AREA_FILTER,119,2,56,61,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Name",IDC_STATIC,183,4,23,10
+    EDITTEXT        IDC_NAME_FILTER,208,2,86,12,ES_AUTOHSCROLL
+    LTEXT           "Due When",IDC_STATIC,3,20,37,10
+    COMBOBOX        IDC_DATE_FILTER,41,18,76,58,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Date",IDC_STATIC,127,21,20,10
+    EDITTEXT        IDC_DATE,147,18,86,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Radiography Data",IDC_RADIOGRAPHY_DATA,229,124,79,12
+END
+
+IDD_COMMISIONING DIALOG DISCARDABLE  0, 0, 265, 189
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Commisioning"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_SYSTEMLIST,5,20,124,72,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_EQUIPMENT,138,20,124,72,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Systems",IDC_STATIC,5,9,30,10
+    LTEXT           "Equipment",IDC_STATIC,138,9,47,10
+    LTEXT           "Scheduled",IDC_STATIC,5,113,39,9
+    LTEXT           "Flush",IDC_STATIC,83,99,30,10
+    LTEXT           "Turnkey",IDC_STATIC,161,99,30,10
+    EDITTEXT        IDC_FLUSH_SCH_DATE,63,110,57,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TURN_SCH_DATE,146,110,57,12,ES_AUTOHSCROLL
+    LTEXT           "Projected",IDC_STATIC,5,131,39,9
+    EDITTEXT        IDC_FLUSH_SCH_DATE2,63,128,57,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TURN_SCH_DATE2,146,128,57,12,ES_AUTOHSCROLL
+    LTEXT           "Actual",IDC_STATIC,5,150,39,9
+    EDITTEXT        IDC_FLUSH_SCH_DATE3,63,147,57,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TURN_SCH_DATE3,146,147,57,12,ES_AUTOHSCROLL
+END
+
+IDD_PICKEQUIP DIALOG DISCARDABLE  0, 0, 213, 54
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Assign Equipment"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,155,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,155,24,50,14
+    COMBOBOX        IDC_ASSIGN_EQUIP,6,20,140,88,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Enter or choose equipment name",IDC_STATIC,6,10,111,10
+END
+
+IDD_SELECT_EQUIP DIALOG DISCARDABLE  0, 0, 185, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Equip / Images"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Close",IDOK,129,6,50,15
+    CONTROL         "Generic2",IDC_EQ_LIST,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | 
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,1,1,124,91
+    PUSHBUTTON      "&Delete",ID_UNLINK,129,42,50,15
+    PUSHBUTTON      "&Open",ID_OPEN_IMAGE,129,24,50,15
+    PUSHBUTTON      "Assoc Data",IDC_EQUIP_TAG_DATA,129,68,50,15,NOT 
+                    WS_VISIBLE
+END
+
+IDD_PROJECT_SETTINGS DIALOG DISCARDABLE  0, 0, 227, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Projects Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Dismiss",IDOK,173,6,50,14
+    LISTBOX         IDC_PROJLIST,3,3,91,154,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PROJECTNAME,100,55,123,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IMAGEPATH,100,81,123,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_DATABASE_PATH,100,107,123,13,ES_AUTOHSCROLL
+    LTEXT           "Project name/number",IDC_STATIC,100,43,90,10
+    LTEXT           "Image Path",IDC_STATIC,100,71,90,10
+    LTEXT           "Database Path",IDC_STATIC,100,97,112,10
+    PUSHBUTTON      "Apply",IDC_APPLY,117,6,50,14
+    PUSHBUTTON      "Remove",IDC_REMOVE,117,23,50,14
+    PUSHBUTTON      "Survey Xfrm",IDC_SURVEY_XFORM,173,23,50,14
+    EDITTEXT        IDC_IMAGE_REDUCE_FACTOR,100,134,123,13,ES_AUTOHSCROLL
+    LTEXT           "Image Reduction Factor",IDC_STATIC,100,124,112,10
+END
+
+IDD_DRAWLIST DIALOG DISCARDABLE  0, 0, 373, 247
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Draw List"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Dismiss",IDOK,21,226,50,14
+    CONTROL         "Generic1",IDC_MEMBERLIST,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    WS_BORDER | WS_TABSTOP,2,14,180,205
+    CONTROL         "Generic1",IDC_DRAWLIST,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    WS_BORDER | WS_TABSTOP,184,14,180,205
+    LTEXT           "Members",IDC_STATIC,9,5,51,7
+    LTEXT           "Drawlist",IDC_STATIC,190,5,51,7
+    DEFPUSHBUTTON   "&Add",IDC_ADD,87,226,50,14
+    DEFPUSHBUTTON   "&Remove",IDC_REMOVE,314,226,50,14
+    COMBOBOX        IDC_DRAWSTYLE,150,227,62,35,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COLOR,224,227,62,62,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_OPEN_PROJECTS DIALOG DISCARDABLE  0, 0, 185, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Open Project"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,23,50,14
+    LISTBOX         IDC_PROJECT_LIST,3,12,122,76,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Available Projects",IDC_STATIC,3,2,85,7
+END
+
+IDD_PDMS_TRANSFORM DIALOG DISCARDABLE  0, 0, 241, 121
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Survey-to-Model Transform Matrix"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,62,101,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,128,101,50,14
+    EDITTEXT        IDC_MATRIX_ELEMENT0,33,22,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT1,101,22,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT2,170,22,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT3,33,41,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT4,101,41,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT5,170,41,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT6,33,60,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT7,101,60,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT8,170,60,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT9,33,79,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT10,101,79,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MATRIX_ELEMENT11,170,79,51,14,ES_AUTOHSCROLL
+    RTEXT           "0",IDC_STATIC,19,25,9,7
+    RTEXT           "3",IDC_STATIC,19,44,9,7
+    RTEXT           "9",IDC_STATIC,19,82,9,7
+    RTEXT           "6",IDC_STATIC,19,63,9,7
+    RTEXT           "1",IDC_STATIC,88,25,9,7
+    RTEXT           "4",IDC_STATIC,88,44,9,7
+    RTEXT           "10",IDC_STATIC,88,82,9,7
+    RTEXT           "7",IDC_STATIC,88,63,9,7
+    RTEXT           "2",IDC_STATIC,157,25,9,7
+    RTEXT           "5",IDC_STATIC,157,44,9,7
+    RTEXT           "11",IDC_STATIC,157,82,9,7
+    RTEXT           "8",IDC_STATIC,157,63,9,7
+END
+
+IDD_LIGHT_ADJUST DIALOGEX 0, 0, 134, 188
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Light Adjustment"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,77,167,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,7,167,50,14
+    CONTROL         "Slider1",IDC_LIGHT_RED,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | TBS_NOTICKS | 
+                    WS_BORDER | WS_TABSTOP,8,25,22,105,WS_EX_CLIENTEDGE | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_LIGHT_GREEN,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | TBS_NOTICKS | 
+                    WS_BORDER | WS_TABSTOP,37,25,22,105,WS_EX_CLIENTEDGE | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_LIGHT_BLUE,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | TBS_NOTICKS | 
+                    WS_BORDER | WS_TABSTOP,66,25,22,105,WS_EX_CLIENTEDGE | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    CONTROL         "Slider1",IDC_LIGHT_ALPHA,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | TBS_BOTH | TBS_NOTICKS | 
+                    WS_BORDER | WS_TABSTOP,104,25,22,105,WS_EX_CLIENTEDGE | 
+                    WS_EX_RTLREADING | WS_EX_STATICEDGE
+    EDITTEXT        IDC_VALUE_RED,8,135,19,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALUE_GREEN,37,135,19,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALUE_BLUE,66,135,19,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALUE_ALPHA,105,135,19,12,ES_AUTOHSCROLL
+    LTEXT           "R",IDC_STATIC,15,16,8,8
+    LTEXT           "G",IDC_STATIC,43,16,8,8
+    LTEXT           "B",IDC_STATIC,73,16,8,8
+    LTEXT           "A",IDC_STATIC,111,16,12,8
+    CONTROL         "Synch RGB",IDC_SYNCH_RGB,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,24,151,52,11
+END
+
+IDD_OPENGL_SETTINGS DIALOG DISCARDABLE  0, 0, 227, 156
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "OpenGL Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,170,5,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,170,22,50,14
+    CONTROL         "Alpha Test",IDC_ALPHA_TEST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,5,50,10
+    CONTROL         "Auto Normal",IDC_AUTO_NORMAL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,20,50,10
+    CONTROL         "Blend",IDC_BLEND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    10,35,50,10
+    CONTROL         "Color Material",IDC_COLOR_MATERIAL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,50,65,10
+    CONTROL         "Cull Face",IDC_CULL_FACE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,65,55,10
+    CONTROL         "Depth Test",IDC_DEPTH_TEST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,80,60,10
+    CONTROL         "Dither",IDC_DITHER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,95,55,10
+    CONTROL         "Fog",IDC_FOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    110,60,10
+    CONTROL         "Lighting",IDC_LIGHTING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,125,70,10
+    CONTROL         "Line Smooth",IDC_LINE_SMOOTH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,140,75,10
+    CONTROL         "Line Stipple",IDC_LINE_STIPPLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,5,80,10
+    CONTROL         "Logic Op",IDC_LOGIC_OP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,20,60,10
+    CONTROL         "Normalize",IDC_NORMALIZE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,35,65,10
+    CONTROL         "Point Smooth",IDC_POINT_SMOOTH,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,50,70,10
+    CONTROL         "Polygon Smooth",IDC_POLYGON_SMOOTH,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,85,65,65,10
+    CONTROL         "Polygon Stipple",IDC_POLYGON_STIPPLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,85,80,75,10
+    CONTROL         "Scissor Test",IDC_SCISSOR_TEST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,95,75,10
+    CONTROL         "Stencil Test",IDC_STENCIL_TEST,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,110,80,10
+    CONTROL         "Texture 1D",IDC_TEXTURE_1D,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,125,85,10
+    CONTROL         "Texture 2D",IDC_TEXTURE_2D,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,140,85,10
+END
+
+IDD_CYLINDERBYEDGE DIALOG DISCARDABLE  0, 0, 215, 53
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Cylinder By Edge"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,32,50,14
+    PUSHBUTTON      "Dismiss",IDCANCEL,158,32,50,14
+    PUSHBUTTON      "Next",IDC_NEXT,101,32,50,14
+    PUSHBUTTON      "Back",IDC_BACK,69,39,21,7,NOT WS_VISIBLE | WS_DISABLED
+    CTEXT           "Static",IDC_LABEL,7,7,201,17
+END
+
+IDD_CYLINDER DIALOG DISCARDABLE  0, 0, 359, 88
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Cylinder Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,121,67,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,187,67,50,14
+    LTEXT           "Radius",IDC_STATIC,5,6,25,10
+    LTEXT           "Height",IDC_STATIC,5,21,25,10
+    LTEXT           "Start Point",IDC_STATIC,5,36,35,10
+    EDITTEXT        IDC_RADIUS,45,5,115,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HEIGHT,45,20,115,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_START_EAST,45,35,75,12,ES_AUTOHSCROLL
+    LTEXT           "East",IDC_STATIC,125,37,15,8
+    EDITTEXT        IDC_START_NORTH,145,35,75,12,ES_AUTOHSCROLL
+    LTEXT           "North",IDC_STATIC,225,37,18,8
+    EDITTEXT        IDC_START_HEIGHT,250,35,75,12,ES_AUTOHSCROLL
+    LTEXT           "Height",IDC_STATIC,330,37,22,8
+    LTEXT           "End Point",IDC_STATIC,5,51,35,10
+    EDITTEXT        IDC_END_EAST,45,50,75,12,ES_AUTOHSCROLL
+    LTEXT           "East",IDC_STATIC,125,52,15,8
+    EDITTEXT        IDC_END_NORTH,145,50,75,12,ES_AUTOHSCROLL
+    LTEXT           "North",IDC_STATIC,225,52,18,8
+    EDITTEXT        IDC_END_HEIGHT,250,50,75,12,ES_AUTOHSCROLL
+    LTEXT           "Height",IDC_STATIC,330,52,22,8
+END
+
+IDD_CIRCLE_BY_EDGE DIALOG DISCARDABLE  0, 0, 167, 29
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Circle by Edge"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,55,7,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,110,7,50,15
+    LTEXT           "Press Points",IDC_STATIC,9,10,40,8
+END
+
+IDD_CIRCLE_BY_3DPOINT DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Circle by 3D Point"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Point",IDOK,129,7,50,14
+    PUSHBUTTON      "Dismiss",IDCANCEL,129,47,50,14
+    PUSHBUTTON      "Calculate",IDC_CALCULATE,129,26,50,14
+    LTEXT           "Locate 3D points and then press OK.  When a minimum of three points have been choosen you may calculate the circle.",
+                    IDC_STATIC,13,13,101,53
+    LTEXT           "Number of Points Calculated",IDC_STATIC,7,70,90,8
+    EDITTEXT        IDC_NUMBER_OF_POINTS,100,68,60,12,ES_AUTOHSCROLL
+END
+
+IDD_ELEMENT_LIST_VIEW DIALOGEX 0, 0, 144, 77
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_ELEMENT_LIST,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_EDITLABELS | TVS_SHOWSELALWAYS | 
+                    WS_BORDER | WS_TABSTOP,7,7,130,63,WS_EX_TRANSPARENT
+END
+
+IDD_CIRCLE DIALOG DISCARDABLE  0, 0, 366, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Circle Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,125,45,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,191,45,50,14
+    LTEXT           "Radius",IDC_STATIC,7,6,25,10
+    LTEXT           "Center Point",IDC_STATIC,7,22,39,10
+    EDITTEXT        IDC_RADIUS,47,5,115,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_START_EAST,47,21,75,12,ES_AUTOHSCROLL
+    LTEXT           "East",IDC_STATIC,127,23,15,8
+    EDITTEXT        IDC_START_NORTH,147,21,75,12,ES_AUTOHSCROLL
+    LTEXT           "North",IDC_STATIC,227,23,18,8
+    EDITTEXT        IDC_START_HEIGHT,253,21,75,12,ES_AUTOHSCROLL
+    LTEXT           "Height",IDC_STATIC,331,23,22,8
+END
+
+IDD_RADIOGRAPHY DIALOG DISCARDABLE  0, 0, 208, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Radiography Data"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SCANTAG,52,7,91,12,ES_AUTOHSCROLL
+    LTEXT           "Scan Tag",IDC_STATIC,7,10,45,9
+    EDITTEXT        IDC_DATE,52,23,47,12,ES_AUTOHSCROLL
+    LTEXT           "Date",IDC_STATIC,7,24,45,9
+    EDITTEXT        IDC_DATAFILE,52,39,91,12,ES_AUTOHSCROLL
+    LTEXT           "Results File",IDC_STATIC,7,40,45,9
+    PUSHBUTTON      "Browse",IDC_BROWSE_DATAFILE,149,39,52,12
+    LTEXT           "Special App",IDC_STATIC,7,58,43,9
+    EDITTEXT        IDC_SPECIALAPP,52,56,91,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDOK,15,77,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,143,77,50,14
+    PUSHBUTTON      "Browse",IDC_BROWSE_APP,149,56,52,12
+    PUSHBUTTON      "View File",IDC_VIEWFILE,79,77,50,14
+END
+
+IDD_BUNDLE_CALC DIALOG DISCARDABLE  0, 0, 194, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Bundle Calculation"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Calculate",IDC_CALCULATE,137,27,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,137,7,50,14
+    CONTROL         "Full",IDC_FULL_BUNDLE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,137,52,34,12
+    CONTROL         "Incremental",IDC_INCREMENTAL_BUNDLE,"Button",
+                    BS_AUTORADIOBUTTON,137,65,50,12
+    LISTBOX         IDC_BUNDLE_LIST,7,7,117,81,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_GROUP | 
+                    WS_TABSTOP
+END
+
+IDD_3DPOINTGRIDBAR DIALOG DISCARDABLE  0, 0, 414, 87
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_3DPOINTGRID,
+                    "{4C1DF000-D3FF-11CE-84BA-484F4DF914E6}",WS_TABSTOP,7,31,
+                    94,22
+    CONTROL         "Tab1",IDC_SPREADSHEET_TAGS,"SysTabControl32",
+                    TCS_RAGGEDRIGHT | TCS_TOOLTIPS,7,64,306,15
+    CONTROL         "",IDC_CYLINDER_GRID,
+                    "{4C1DF000-D3FF-11CE-84BA-484F4DF914E6}",WS_TABSTOP,202,
+                    7,94,22
+    CONTROL         "",IDC_BOX_GRID,"{4C1DF000-D3FF-11CE-84BA-484F4DF914E6}",
+                    WS_TABSTOP,299,7,94,22
+    CONTROL         "",IDC_NODE_GRID,
+                    "{4C1DF000-D3FF-11CE-84BA-484F4DF914E6}",WS_TABSTOP,7,7,
+                    94,22
+    CONTROL         "",IDC_POINT_GRID,
+                    "{4C1DF000-D3FF-11CE-84BA-484F4DF914E6}",WS_TABSTOP,105,
+                    7,94,22
+END
+
+IDD_COLUMNEDITOR DIALOG DISCARDABLE  0, 0, 428, 94
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_COLUMNGRID,
+                    "{4C1DF000-D3FF-11CE-84BA-484F4DF914E6}",WS_TABSTOP,7,7,
+                    414,80
+END
+
+IDD_ZONEEDITOR DIALOG DISCARDABLE  0, 0, 372, 95
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_ZONEGRID,"{4C1DF000-D3FF-11CE-84BA-484F4DF914E6}",
+                    WS_TABSTOP,7,7,358,81
+END
+
+IDD_QUICKCYLINDER DIALOG DISCARDABLE  0, 0, 187, 119
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Quick Cylinder"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Point 1",IDC_POINT1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,7,57,38,10
+    CONTROL         "Point 2",IDC_POINT2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,7,71,38,10
+    CONTROL         "Point 3",IDC_POINT3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,7,85,38,10
+    CONTROL         "Point 4",IDC_POINT4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,7,99,38,10
+    PUSHBUTTON      "Accept Point",IDC_ACCEPT_POINT,130,7,50,14,WS_GROUP
+    DEFPUSHBUTTON   "Calculate",IDOK,130,24,50,14,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,130,41,50,14
+    LTEXT           "Point 1",IDC_STATIC,9,7,23,8
+    LTEXT           "Point 3",IDC_STATIC,65,7,23,8
+    LTEXT           "Point 2",IDC_STATIC,7,39,23,8
+    LTEXT           "Point 4",IDC_STATIC,65,39,23,8
+    CONTROL         260,IDC_STATIC,"Static",SS_BITMAP,25,18,52,17
+    LTEXT           "x = ??  y = ??  z = ??",IDC_POINT1_TEXT,55,58,119,8
+    LTEXT           "x = ??  y = ??  z = ??",IDC_POINT2_TEXT,55,72,119,8
+    LTEXT           "x = ??  y = ??  z = ??",IDC_POINT3_TEXT,55,86,119,8
+    LTEXT           "x = ??  y = ??  z = ??",IDC_POINT4_TEXT,55,100,119,8
+END
+
+IDD_ENDPOINTCYLINDER DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Create Cylinder by Endpoints"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    LTEXT           "Static",IDC_STATIC,7,7,106,14
+END
+
+IDD_SAVE_DGN DIALOG DISCARDABLE  0, 0, 369, 169
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Save To DGN"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,312,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,312,24,50,14
+    LTEXT           "Seed File:",IDC_STATIC,10,10,32,8
+    LTEXT           "DGN File:",IDC_STATIC,10,26,32,8
+    EDITTEXT        IDC_EDIT1,43,7,110,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,43,23,110,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,168,123,40,14,ES_AUTOHSCROLL
+    LTEXT           "Sub Units/Master Unit",IDC_STATIC,213,126,71,8
+    EDITTEXT        IDC_EDIT4,169,140,40,14,ES_AUTOHSCROLL
+    LTEXT           "UORs/Sub Unit",IDC_STATIC,213,142,51,8
+    CONTROL         "Set DGN Units?",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,
+                    156,110,67,10
+    EDITTEXT        IDC_EDIT6,7,42,55,14,ES_AUTOHSCROLL
+    LTEXT           "=",IDC_STATIC,92,45,8,8
+    EDITTEXT        IDC_EDIT7,103,42,55,14,ES_AUTOHSCROLL
+    CONTROL         "Feet",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,211,44,30,
+                    10
+    CONTROL         "Master Units",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,
+                    270,44,55,10
+    CONTROL         "Sub Units",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,270,
+                    55,47,10
+    CONTROL         "UORs",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,270,66,35,
+                    10
+    CONTROL         "Inches",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,211,55,
+                    37,10
+    CONTROL         "Millimeters",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,211,
+                    66,48,10
+    CONTROL         "Meters",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,211,78,
+                    37,10
+    PUSHBUTTON      "Browse",IDC_BUTTON2,157,7,50,14
+    PUSHBUTTON      "Browse",IDC_BUTTON3,157,23,50,14
+    COMBOBOX        IDC_COMBO1,11,80,48,62,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,99,107,0
+ PRODUCTVERSION 2,99,107,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "As Built Data, Inc.\0"
+            VALUE "FileDescription", "PM3-PC MFC Application\0"
+            VALUE "FileVersion", "2, 99, 107, 0\0"
+            VALUE "InternalName", "PM3-PC\0"
+            VALUE "LegalCopyright", "Copyright © 1995\0"
+            VALUE "OriginalFilename", "PM3.EXE\0"
+            VALUE "ProductName", "PM3-PC Application\0"
+            VALUE "ProductVersion", "2, 99, 107, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_ZOOMIN              CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_ZOOMOUT             CURSOR  DISCARDABLE     "res\\cur00001.cur"
+IDC_CROSSHAIR           CURSOR  DISCARDABLE     "res\\cur00002.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MAINTANANCE DLGINIT
+BEGIN
+    IDC_TYPE_FILTER, 0x403, 4, 0
+0x6c41, 0x006c, 
+    IDC_AREA_FILTER, 0x403, 4, 0
+0x6c41, 0x006c, 
+    IDC_DATE_FILTER, 0x403, 7, 0
+0x6749, 0x6f6e, 0x6572, "\000" 
+    IDC_DATE_FILTER, 0x403, 7, 0
+0x6542, 0x6f66, 0x6572, "\000" 
+    IDC_DATE_FILTER, 0x403, 6, 0
+0x6641, 0x6574, 0x0072, 
+    0
+END
+
+IDD_DRAWLIST DLGINIT
+BEGIN
+    IDC_DRAWSTYLE, 0x403, 10, 0
+0x6957, 0x6572, 0x7266, 0x6d61, 0x0065, 
+    IDC_DRAWSTYLE, 0x403, 6, 0
+0x6f53, 0x696c, 0x0064, 
+    IDC_COLOR, 0x403, 4, 0
+0x6552, 0x0064, 
+    IDC_COLOR, 0x403, 6, 0
+0x7247, 0x6565, 0x006e, 
+    IDC_COLOR, 0x403, 5, 0
+0x6c42, 0x6575, "\000" 
+    IDC_COLOR, 0x403, 8, 0
+0x614d, 0x6567, 0x746e, 0x0061, 
+    IDC_COLOR, 0x403, 5, 0
+0x7943, 0x6e61, "\000" 
+    IDC_COLOR, 0x403, 7, 0
+0x6559, 0x6c6c, 0x776f, "\000" 
+    IDC_COLOR, 0x403, 10, 0
+0x4428, 0x6665, 0x7561, 0x746c, 0x0029, 
+    IDC_COLOR, 0x403, 6, 0
+0x6857, 0x7469, 0x0065, 
+    IDC_COLOR, 0x403, 6, 0
+0x6c42, 0x6361, 0x006b, 
+    0
+END
+
+IDD_3POINTS DLGINIT
+BEGIN
+    IDC_3DPOINTGRID, 0x37a, 1838, 0
+0x002e, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0035, 0x0020, 0x0050, 0x0072, 0x006f, 0x0074, 0x006f, 0x0056, 
+0x0069, 0x0065, 0x0077, 0x0020, 0x0044, 0x0065, 0x0076, 0x0065, 0x006c, 
+0x006f, 0x0070, 0x006d, 0x0065, 0x006e, 0x0074, 0x0020, 0x0043, 0x006f, 
+0x0072, 0x0070, 0x002e, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0000, 0x0003, 0x0003, 0x49cb, 0x0000, 0x085f, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0000, 0xffff, 0x00ff, 0x0300, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 0x9000, 0x4401, 
+0x0142, 0x0d00, 0x534d, 0x5320, 0x6e61, 0x2073, 0x6553, 0x6972, 0x0166, 
+0x0101, 0x0101, 0x0001, 0x0000, 0x0001, 0x0001, 0x0002, 0x0000, 0x0000, 
+0x0000, 0x0100, 0x0000, 0x0100, 0x0101, 0x0000, 0x0002, 0x0002, 0x0000, 
+0x0001, 0x0000, 0x0071, 0x000d, 0x001b, 0xffff, 0xffff, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0x8080, 
+0x0080, 0x04ff, 0x0500, 0x0000, 0x0000, 0x0600, 0x4e5b, 0x4c55, 0x5d4c, 
+0x0000, 0x0000, 0x0000, 0xbf80, 0x0000, 0xbf80, 0x0000, 0x4220, 0x0000, 
+0x0013, 0x0000, 0x05e8, 0x0000, 0x004f, 0x0000, 0x0000, 0x0000, 0x003c, 
+0x0000, 0x0087, 0x005c, 0x0000, 0x42a0, 0x0000, 0x005c, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6f50, 0x6e69, 0x2074, 0x614e, 0x656d, 0x0000, 0x0000, 0x4d00, 0x0000, 
+0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x0000, 0x0000, 0x3000, 0x0042, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x4500, 0x7361, 0x0074, 0x0000, 0x2e23, 0x2323, 
+0x0000, 0x004e, 0x0000, 0x0000, 0x0000, 0x0008, 0x0000, 0x0085, 0x0000, 
+0x0000, 0x4230, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6f4e, 0x7472, 0x0068, 
+0x0000, 0x2e23, 0x2323, 0x0000, 0x004f, 0x0000, 0x0000, 0x0000, 0x0008, 
+0x0000, 0x0085, 0x0000, 0x0000, 0x4230, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6548, 0x6769, 0x7468, 0x0000, 0x2300, 0x232e, 0x0023, 0x5300, 0x0000, 
+0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x0000, 0x0000, 0x3000, 0x0042, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 0x6174, 0x4520, 0x7361, 0x0074, 
+0x0000, 0x2e23, 0x2323, 0x0000, 0x0054, 0x0000, 0x0000, 0x0000, 0x0008, 
+0x0000, 0x0085, 0x0000, 0x0000, 0x4230, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6544, 0x746c, 0x2061, 0x6f4e, 0x7472, 0x0068, 0x0000, 0x2e23, 0x2323, 
+0x0000, 0x0055, 0x0000, 0x0000, 0x0000, 0x0008, 0x0000, 0x0085, 0x0000, 
+0x0000, 0x4230, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6544, 0x746c, 0x2061, 
+0x6548, 0x6769, 0x7468, 0x0000, 0x2300, 0x232e, 0x0023, 0x5100, 0x0000, 
+0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x0000, 0x0030, 0x3000, 0x0042, 
+0x0000, 0x0030, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x4400, 0x7369, 0x6174, 0x636e, 0x0065, 0x0000, 
+0x2e23, 0x2323, 0x0000, 0x0049, 0x0000, 0x0000, 0x0000, 0x001e, 0x0000, 
+0x0087, 0x0060, 0x0000, 0x4230, 0x0000, 0x0060, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6145, 
+0x7473, 0x0000, 0x0000, 0x4a00, 0x0000, 0x0000, 0x0000, 0x1e00, 0x0000, 
+0x8700, 0x0000, 0x0030, 0x3000, 0x0042, 0x0000, 0x0060, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4e00, 
+0x726f, 0x6874, 0x0000, 0x0000, 0x4b00, 0x0000, 0x0000, 0x0000, 0x1e00, 
+0x0000, 0x8700, 0x0000, 0x0030, 0x3000, 0x0042, 0x0000, 0x0030, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x4800, 0x6965, 0x6867, 0x0074, 0x0000, 0x0000, 0x004f, 0x0000, 0x0000, 
+0x0000, 0x001e, 0x0000, 0x0087, 0x0060, 0x0000, 0x4230, 0x0000, 0x0060, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x6544, 0x746c, 0x2061, 0x6145, 0x7473, 0x0000, 0x0000, 
+0x5000, 0x0000, 0x0000, 0x0000, 0x1e00, 0x0000, 0x8700, 0x0000, 0x0030, 
+0x3000, 0x0042, 0x0000, 0x0080, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 0x6174, 0x4e20, 
+0x726f, 0x6874, 0x0000, 0x0000, 0x5100, 0x0000, 0x0000, 0x0000, 0x1e00, 
+0x0000, 0x8700, 0x0000, 0x0060, 0x3000, 0x0042, 0x0000, 0x0060, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x4400, 0x6c65, 0x6174, 0x4820, 0x6965, 0x6867, 0x0074, 0x0000, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0000, 0x001e, 0x0000, 0x0087, 0x0000, 0x0000, 
+0x4230, 0x0000, 0x0008, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6944, 0x7473, 0x6e61, 0x6563, 
+0x0000, 0x0000, 0x5100, 0x0000, 0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 
+0x0000, 0x0000, 0x3000, 0x0042, 0x0000, 0x00ae, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x5300, 0x6474, 
+0x4520, 0x7361, 0x0074, 0x0000, 0x2e23, 0x2323, 0x0000, 0x0052, 0x0000, 
+0x0000, 0x0000, 0x0008, 0x0000, 0x0085, 0x0034, 0x0000, 0x4230, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x7453, 0x2064, 0x6f4e, 0x7472, 0x0068, 0x0000, 
+0x2e23, 0x2323, 0x0000, 0x0053, 0x0000, 0x0000, 0x0000, 0x0008, 0x0000, 
+0x0085, 0x0000, 0x0000, 0x4230, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x7453, 
+0x2064, 0x6548, 0x6769, 0x7468, 0x0000, 0x2300, 0x232e, 0x0023, 0x5100, 
+0x0000, 0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x0000, 0x0000, 0x3000, 
+0x0042, 0xff00, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x5200, 0x7961, 0x4d20, 0x7369, 0x0073, 
+0x0000, 0x2e23, 0x2323, 0x0000, 0x0000, 0x4190, 0x0001, 0x6000, 0xff41, 
+0xfdff, 0xffff, 0xffff, 0xfdff, 0xffff, 0xffff, 0xfdff, 0xffff, 0x00ff, 
+0x0000, 
+    0
+END
+
+IDD_3DPOINTGRIDBAR DLGINIT
+BEGIN
+    IDC_3DPOINTGRID, 0x37a, 1998, 0
+0x002e, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0035, 0x0020, 0x0050, 0x0072, 0x006f, 0x0074, 0x006f, 0x0056, 
+0x0069, 0x0065, 0x0077, 0x0020, 0x0044, 0x0065, 0x0076, 0x0065, 0x006c, 
+0x006f, 0x0070, 0x006d, 0x0065, 0x006e, 0x0074, 0x0020, 0x0043, 0x006f, 
+0x0072, 0x0070, 0x002e, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0000, 0x0003, 0x0003, 0x0e93, 0x0000, 0x03b9, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0000, 0xffff, 0x00ff, 0x0300, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 0x9000, 0x4401, 
+0x0142, 0x0d00, 0x534d, 0x5320, 0x6e61, 0x2073, 0x6553, 0x6972, 0x0166, 
+0x0101, 0x0101, 0x0000, 0x0000, 0x0001, 0x0001, 0x0002, 0x0000, 0x0101, 
+0x0001, 0x0101, 0x0001, 0x0100, 0x0101, 0x0000, 0x0002, 0x0002, 0x0000, 
+0x0001, 0x0000, 0x0071, 0x000d, 0x001b, 0xffff, 0xffff, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0x8080, 
+0x0080, 0x04ff, 0x0000, 0x0000, 0x0000, 0x0600, 0x4e5b, 0x4c55, 0x5d4c, 
+0x0000, 0x0000, 0x0000, 0xbf80, 0x0000, 0xbf80, 0x0000, 0x4220, 0x0000, 
+0x0013, 0x0000, 0x0688, 0x0000, 0x005e, 0x0000, 0x0000, 0x0000, 0x0080, 
+0x0001, 0x0087, 0x0000, 0x0000, 0x42f0, 0x0000, 0xe352, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6c4f, 0x2064, 0x6f50, 0x6e69, 0x2074, 0x614e, 0x656d, 0x0000, 0x7a73, 
+0x6f50, 0x6e69, 0x4e74, 0x6d61, 0x0065, 0x0000, 0x004f, 0x0000, 0x0000, 
+0x0000, 0x001e, 0x0001, 0x0087, 0xffff, 0x0000, 0x4294, 0x0000, 0xffff, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x6145, 0x7473, 0x0000, 0x7a73, 0x6145, 0x7473, 0x0000, 
+0x5100, 0x0000, 0x0000, 0x0000, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0001, 
+0x9400, 0x0042, 0x0000, 0x00f0, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4e00, 0x726f, 0x6874, 0x0000, 
+0x7a73, 0x6f4e, 0x7472, 0x0068, 0x0000, 0x0053, 0x0000, 0x0000, 0x0000, 
+0x001e, 0x0001, 0x0087, 0x004f, 0x0000, 0x4294, 0x0000, 0x001e, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x6548, 0x6769, 0x7468, 0x0000, 0x7a73, 0x6548, 0x6769, 0x7468, 
+0x0000, 0x5a00, 0x0000, 0x0200, 0x0000, 0x1e00, 0x0100, 0x8700, 0x0000, 
+0x0000, 0x9400, 0x0042, 0x8700, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 0x6174, 
+0x4520, 0x7361, 0x0074, 0x7300, 0x447a, 0x6c65, 0x6174, 0x6145, 0x7473, 
+0x0000, 0x5c00, 0x0000, 0x0200, 0x0000, 0x1e00, 0x0100, 0x8700, 0x0000, 
+0x0000, 0x9400, 0x0042, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 0x6174, 
+0x4e20, 0x726f, 0x6874, 0x0000, 0x7a73, 0x6544, 0x746c, 0x4e61, 0x726f, 
+0x6874, 0x0000, 0x5e00, 0x0000, 0x0200, 0x0000, 0x1e00, 0x0100, 0x8700, 
+0x0000, 0x0000, 0x9400, 0x0042, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 
+0x6174, 0x4820, 0x6965, 0x6867, 0x0074, 0x7300, 0x447a, 0x6c65, 0x6174, 
+0x6548, 0x6769, 0x7468, 0x0000, 0x5700, 0x0000, 0x0200, 0x0000, 0x1e00, 
+0x0100, 0x8700, 0x0000, 0x0000, 0x9400, 0x0042, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x4400, 0x7369, 0x6174, 0x636e, 0x0065, 0x7300, 0x447a, 0x7369, 0x6174, 
+0x636e, 0x0065, 0x0000, 0x005a, 0x0000, 0x0002, 0x0000, 0x0008, 0x0001, 
+0x0085, 0x0000, 0x0000, 0x4270, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x7453, 
+0x2064, 0x6145, 0x7473, 0x0000, 0x6664, 0x7453, 0x4564, 0x7361, 0x0074, 
+0x2e23, 0x2323, 0x0000, 0x005c, 0x0000, 0x0002, 0x0000, 0x0008, 0x0001, 
+0x0085, 0x9400, 0x0000, 0x4270, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x7453, 
+0x2064, 0x6f4e, 0x7472, 0x0068, 0x6400, 0x5366, 0x6474, 0x6f4e, 0x7472, 
+0x0068, 0x2e23, 0x2323, 0x0000, 0x005e, 0x0000, 0x0002, 0x0000, 0x0008, 
+0x0001, 0x0085, 0x0000, 0x0000, 0x4270, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x7453, 0x2064, 0x6548, 0x6769, 0x7468, 0x0000, 0x6664, 0x7453, 0x4864, 
+0x6965, 0x6867, 0x0074, 0x2e23, 0x2323, 0x0000, 0x005a, 0x0000, 0x0002, 
+0x0000, 0x0008, 0x0001, 0x0085, 0x0000, 0x0000, 0x4270, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x6152, 0x2079, 0x694d, 0x7373, 0x0000, 0x6664, 0x6152, 
+0x4d79, 0x7369, 0x0073, 0x2e23, 0x2323, 0x0000, 0x004f, 0x0000, 0x0000, 
+0x0000, 0x0008, 0x0000, 0x0085, 0x0000, 0x0000, 0x4230, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x6145, 0x7473, 0x0000, 0x6664, 0x6145, 0x7473, 0x0000, 
+0x5100, 0x0000, 0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x0000, 0x0001, 
+0x3000, 0x0042, 0x0000, 0x0170, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4e00, 0x726f, 0x6874, 0x0000, 
+0x6664, 0x6f4e, 0x7472, 0x0068, 0x0000, 0x0053, 0x0000, 0x0000, 0x0000, 
+0x0008, 0x0000, 0x0085, 0x004f, 0x0000, 0x4230, 0x0000, 0x0008, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x6548, 0x6769, 0x7468, 0x0000, 0x6664, 0x6548, 0x6769, 0x7468, 
+0x0000, 0x5a00, 0x0000, 0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x0000, 
+0x0000, 0x3000, 0x0042, 0x8500, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 0x6174, 
+0x4520, 0x7361, 0x0074, 0x6400, 0x4466, 0x6c65, 0x6174, 0x6145, 0x7473, 
+0x0000, 0x5c00, 0x0000, 0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x0000, 
+0x0000, 0x3000, 0x0042, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 0x6174, 
+0x4e20, 0x726f, 0x6874, 0x0000, 0x6664, 0x6544, 0x746c, 0x4e61, 0x726f, 
+0x6874, 0x0000, 0x5e00, 0x0000, 0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 
+0x0000, 0x0000, 0x3000, 0x0042, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 
+0x6174, 0x4820, 0x6965, 0x6867, 0x0074, 0x6400, 0x4466, 0x6c65, 0x6174, 
+0x6548, 0x6769, 0x7468, 0x0000, 0x5700, 0x0000, 0x0000, 0x0000, 0x0800, 
+0x0000, 0x8500, 0x0000, 0x0000, 0x3000, 0x0042, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x4400, 0x7369, 0x6174, 0x636e, 0x0065, 0x6400, 0x4466, 0x7369, 0x6174, 
+0x636e, 0x0065, 0x0000, 0x0000, 0x4190, 0x0001, 0x6000, 0xff41, 0xfdff, 
+0xffff, 0xffff, 0xfdff, 0xffff, 0xffff, 0xfdff, 0xffff, 0x00ff, 0x0000, 
+
+    IDC_CYLINDER_GRID, 0x37a, 1419, 0
+0x002e, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0035, 0x0020, 0x0050, 0x0072, 0x006f, 0x0074, 0x006f, 0x0056, 
+0x0069, 0x0065, 0x0077, 0x0020, 0x0044, 0x0065, 0x0076, 0x0065, 0x006c, 
+0x006f, 0x0070, 0x006d, 0x0065, 0x006e, 0x0074, 0x0020, 0x0043, 0x006f, 
+0x0072, 0x0070, 0x002e, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0000, 0x0003, 0x0003, 0x0e93, 0x0000, 0x03b9, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0000, 0xffff, 0x00ff, 0x0300, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 0x9000, 0x4401, 
+0x0142, 0x0d00, 0x534d, 0x5320, 0x6e61, 0x2073, 0x6553, 0x6972, 0x0166, 
+0x0101, 0x0101, 0x0000, 0x0000, 0x0001, 0x0001, 0x0002, 0x0000, 0x0101, 
+0x0001, 0x0101, 0x0001, 0x0100, 0x0101, 0x0000, 0x0002, 0x0002, 0x0000, 
+0x0001, 0x0000, 0x0071, 0x000d, 0x001b, 0xffff, 0xffff, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0x8080, 
+0x0080, 0x04ff, 0x0000, 0x0000, 0x0000, 0x0600, 0x4e5b, 0x4c55, 0x5d4c, 
+0x0000, 0x0000, 0x0000, 0xbf80, 0x0000, 0xbf80, 0x0000, 0x4220, 0x0000, 
+0x000e, 0x0000, 0x0445, 0x0000, 0x0052, 0x0000, 0x0000, 0x0000, 0x0080, 
+0x0001, 0x0087, 0x0000, 0x0000, 0x42f0, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x7943, 0x696c, 0x646e, 0x7265, 0x4e20, 0x6d61, 0x0065, 0x0000, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0002, 0x001e, 0x0001, 0x0087, 0x0000, 0x0000, 
+0x4294, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6944, 0x6d61, 0x7465, 0x7265, 
+0x0000, 0x0000, 0x4b00, 0x0000, 0x0000, 0x0200, 0x1e00, 0x0100, 0x8700, 
+0x0000, 0x0000, 0x9400, 0x0042, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4800, 0x6965, 
+0x6867, 0x0074, 0x0000, 0x0000, 0x0050, 0x0000, 0x0000, 0x0002, 0x001e, 
+0x0001, 0x0087, 0x0000, 0x0000, 0x4294, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6543, 0x746e, 0x7265, 0x4520, 0x7361, 0x0074, 0x0000, 0x0000, 0x0051, 
+0x0000, 0x0000, 0x0002, 0x001e, 0x0001, 0x0087, 0x0000, 0x0000, 0x4294, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x6543, 0x746e, 0x7265, 0x4e20, 0x726f, 
+0x6874, 0x0000, 0x0000, 0x5200, 0x0000, 0x0000, 0x0200, 0x1e00, 0x0100, 
+0x8700, 0x0000, 0x0000, 0x9400, 0x0042, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4300, 
+0x6e65, 0x6574, 0x2072, 0x6548, 0x6769, 0x7468, 0x0000, 0x0000, 0x4d00, 
+0x0000, 0x0000, 0x0200, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0000, 0x9400, 
+0x0042, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x4200, 0x6765, 0x4520, 0x7361, 0x0074, 
+0x0000, 0x0000, 0x004e, 0x0000, 0x0000, 0x0002, 0x001e, 0x0001, 0x0087, 
+0x0000, 0x0000, 0x4294, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6542, 0x2067, 
+0x6f4e, 0x7472, 0x0068, 0x0000, 0x0000, 0x004f, 0x0000, 0x0000, 0x0002, 
+0x001e, 0x0001, 0x0087, 0x0000, 0x0000, 0x4294, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x6542, 0x2067, 0x6548, 0x6769, 0x7468, 0x0000, 0x0000, 0x4d00, 
+0x0000, 0x0000, 0x0200, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0000, 0x9400, 
+0x0042, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x4500, 0x646e, 0x4520, 0x7361, 0x0074, 
+0x0000, 0x0000, 0x004e, 0x0000, 0x0000, 0x0002, 0x001e, 0x0001, 0x0087, 
+0x0000, 0x0000, 0x4294, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6e45, 0x2064, 
+0x6f4e, 0x7472, 0x0068, 0x0000, 0x0000, 0x004f, 0x0000, 0x0000, 0x0002, 
+0x001e, 0x0001, 0x0087, 0x0000, 0x0000, 0x4294, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x6e45, 0x2064, 0x6548, 0x6769, 0x7468, 0x0000, 0x0000, 0x4c00, 
+0x0000, 0x0000, 0x0000, 0x0400, 0x0000, 0x8300, 0x0000, 0x0000, 0x2000, 
+0x0042, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x4e00, 0x646f, 0x5065, 0x7274, 0x0000, 
+0x0000, 0x4800, 0x0000, 0x0000, 0x0000, 0x0400, 0x0000, 0x8300, 0x0000, 
+0x0000, 0x2000, 0x0042, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x4142, 0x0000, 
+0x0000, 0x0000, 0x9000, 0x0141, 0x0000, 0x4160, 0xffff, 0xfffd, 0xffff, 
+0xffff, 0xfffd, 0xffff, 0xffff, 0xfffd, 0xffff, 0x0000, "\000" 
+    IDC_BOX_GRID, 0x37a, 1018, 0
+0x002e, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0035, 0x0020, 0x0050, 0x0072, 0x006f, 0x0074, 0x006f, 0x0056, 
+0x0069, 0x0065, 0x0077, 0x0020, 0x0044, 0x0065, 0x0076, 0x0065, 0x006c, 
+0x006f, 0x0070, 0x006d, 0x0065, 0x006e, 0x0074, 0x0020, 0x0043, 0x006f, 
+0x0072, 0x0070, 0x002e, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0000, 0x0003, 0x0003, 0x0e93, 0x0000, 0x03b9, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0000, 0xffff, 0x00ff, 0x0300, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 0x9000, 0x4401, 
+0x0142, 0x0d00, 0x534d, 0x5320, 0x6e61, 0x2073, 0x6553, 0x6972, 0x0166, 
+0x0101, 0x0101, 0x0000, 0x0000, 0x0001, 0x0001, 0x0002, 0x0000, 0x0101, 
+0x0001, 0x0101, 0x0001, 0x0100, 0x0101, 0x0000, 0x0002, 0x0002, 0x0000, 
+0x0001, 0x0000, 0x0071, 0x000d, 0x001b, 0xffff, 0xffff, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0x8080, 
+0x0080, 0x04ff, 0x0000, 0x0000, 0x0000, 0x0600, 0x4e5b, 0x4c55, 0x5d4c, 
+0x0000, 0x0000, 0x0000, 0xbf80, 0x0000, 0xbf80, 0x0000, 0x4220, 0x0000, 
+0x0009, 0x0000, 0x02b4, 0x0000, 0x004d, 0x0000, 0x0000, 0x0000, 0x0080, 
+0x0001, 0x0087, 0x005c, 0x0000, 0x42f0, 0x0000, 0x005c, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6f42, 0x2078, 0x614e, 0x656d, 0x0000, 0x0000, 0x4b00, 0x0000, 0x0000, 
+0x0200, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0000, 0x9400, 0x0042, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x4c00, 0x6e65, 0x7467, 0x0068, 0x0000, 0x0000, 0x004a, 
+0x0000, 0x0000, 0x0002, 0x001e, 0x0001, 0x0087, 0x0000, 0x0000, 0x4294, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x6957, 0x7464, 0x0068, 0x0000, 0x0000, 
+0x004b, 0x0000, 0x0000, 0x0002, 0x001e, 0x0001, 0x0087, 0x0000, 0x0000, 
+0x4294, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6548, 0x6769, 0x7468, 0x0000, 
+0x0000, 0x5000, 0x0000, 0x0000, 0x0200, 0x1e00, 0x0100, 0x8700, 0x0000, 
+0x0000, 0x9400, 0x0042, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4300, 0x6e65, 0x6574, 
+0x2072, 0x6145, 0x7473, 0x0000, 0x0000, 0x5100, 0x0000, 0x0000, 0x0200, 
+0x1e00, 0x0100, 0x8700, 0x0000, 0x0000, 0x9400, 0x0042, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x4300, 0x6e65, 0x6574, 0x2072, 0x6f4e, 0x7472, 0x0068, 0x0000, 
+0x0000, 0x0052, 0x0000, 0x0000, 0x0002, 0x001e, 0x0001, 0x0087, 0x0000, 
+0x0000, 0x4294, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6543, 0x746e, 0x7265, 
+0x4820, 0x6965, 0x6867, 0x0074, 0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 
+0x0000, 0x0004, 0x0000, 0x0083, 0x0000, 0x0000, 0x4220, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x6f4e, 0x6564, 0x7450, 0x0072, 0x0000, 0x0000, 0x0048, 
+0x0000, 0x0000, 0x0000, 0x0004, 0x0000, 0x0083, 0x0000, 0x0000, 0x4220, 
+0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x4244, 0x0041, 0x0000, 0x0000, 0x0000, 
+0x4190, 0x0001, 0x6000, 0xff41, 0xfdff, 0xffff, 0xffff, 0xfdff, 0xffff, 
+0xffff, 0xfdff, 0xffff, 0x00ff, 0x0000, 
+    IDC_NODE_GRID, 0x37a, 797, 0
+0x002e, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0035, 0x0020, 0x0050, 0x0072, 0x006f, 0x0074, 0x006f, 0x0056, 
+0x0069, 0x0065, 0x0077, 0x0020, 0x0044, 0x0065, 0x0076, 0x0065, 0x006c, 
+0x006f, 0x0070, 0x006d, 0x0065, 0x006e, 0x0074, 0x0020, 0x0043, 0x006f, 
+0x0072, 0x0070, 0x002e, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0000, 0x0003, 0x0003, 0x0e93, 0x0000, 0x03b9, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0000, 0xffff, 0x00ff, 0x0300, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 0x9000, 0x4401, 
+0x0142, 0x0d00, 0x534d, 0x5320, 0x6e61, 0x2073, 0x6553, 0x6972, 0x0166, 
+0x0101, 0x0101, 0x0000, 0x0000, 0x0001, 0x0001, 0x0002, 0x0000, 0x0101, 
+0x0001, 0x0101, 0x0001, 0x0100, 0x0101, 0x0000, 0x0002, 0x0002, 0x0000, 
+0x0001, 0x0000, 0x0071, 0x000d, 0x001b, 0xffff, 0xffff, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0x8080, 
+0x0080, 0x04ff, 0x0000, 0x0000, 0x0000, 0x0600, 0x4e5b, 0x4c55, 0x5d4c, 
+0x0000, 0x0000, 0x0000, 0xbf80, 0x0000, 0xbf80, 0x0000, 0x4220, 0x0000, 
+0x0006, 0x0000, 0x01d7, 0x0000, 0x004e, 0x0000, 0x0000, 0x0000, 0x0080, 
+0x0001, 0x0087, 0x0000, 0x0000, 0x42f0, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6f4e, 0x6564, 0x4e20, 0x6d61, 0x0065, 0x0000, 0x0000, 0x0052, 0x0000, 
+0x0000, 0x0002, 0x001e, 0x0001, 0x0087, 0x0000, 0x0000, 0x4294, 0x0000, 
+0x0002, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x6f50, 0x6973, 0x6974, 0x6e6f, 0x4520, 0x7361, 
+0x0074, 0x0000, 0x0000, 0x0053, 0x0000, 0x0000, 0x0002, 0x001e, 0x0001, 
+0x0087, 0x0000, 0x0000, 0x4294, 0x0000, 0x0002, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6f50, 
+0x6973, 0x6974, 0x6e6f, 0x4e20, 0x726f, 0x6874, 0x0000, 0x0000, 0x5000, 
+0x0000, 0x0000, 0x0200, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0000, 0x9400, 
+0x0042, 0x0200, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x5000, 0x736f, 0x7469, 0x6f69, 0x206e, 
+0x7055, 0x0000, 0x0000, 0x4c00, 0x0000, 0x0000, 0x0000, 0x0400, 0x0000, 
+0x8300, 0x0000, 0x0000, 0x2000, 0x0042, 0x0000, 0x0100, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4e00, 
+0x646f, 0x5065, 0x7274, 0x0000, 0x0000, 0x4800, 0x0000, 0x0000, 0x0000, 
+0x0400, 0x0000, 0x8300, 0x0000, 0x0000, 0x2000, 0x0042, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x4400, 0x4142, 0x0000, 0x0000, 0x0000, 0x9000, 0x0141, 0x0000, 
+0x4160, 0xffff, 0xfffd, 0xffff, 0xffff, 0xfffd, 0xffff, 0xffff, 0xfffd, 
+0xffff, 0x0000, "\000" 
+    IDC_POINT_GRID, 0x37a, 1536, 0
+0x002e, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0035, 0x0020, 0x0050, 0x0072, 0x006f, 0x0074, 0x006f, 0x0056, 
+0x0069, 0x0065, 0x0077, 0x0020, 0x0044, 0x0065, 0x0076, 0x0065, 0x006c, 
+0x006f, 0x0070, 0x006d, 0x0065, 0x006e, 0x0074, 0x0020, 0x0043, 0x006f, 
+0x0072, 0x0070, 0x002e, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0000, 0x0003, 0x0003, 0x0e93, 0x0000, 0x03b9, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0000, 0xffff, 0x00ff, 0x0300, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 0x9000, 0x4401, 
+0x0142, 0x0d00, 0x534d, 0x5320, 0x6e61, 0x2073, 0x6553, 0x6972, 0x0166, 
+0x0101, 0x0101, 0x0000, 0x0000, 0x0001, 0x0001, 0x0002, 0x0000, 0x0101, 
+0x0001, 0x0101, 0x0001, 0x0100, 0x0101, 0x0000, 0x0002, 0x0002, 0x0000, 
+0x0001, 0x0000, 0x0071, 0x000d, 0x001b, 0xffff, 0xffff, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0x8080, 
+0x0080, 0x04ff, 0x0000, 0x0000, 0x0000, 0x0600, 0x4e5b, 0x4c55, 0x5d4c, 
+0x0000, 0x0000, 0x0000, 0xbf80, 0x0000, 0xbf80, 0x0000, 0x4220, 0x0000, 
+0x000e, 0x0000, 0x04ba, 0x0000, 0x005a, 0x0000, 0x0000, 0x0000, 0x0080, 
+0x0001, 0x0087, 0x0000, 0x0000, 0x42f0, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6f50, 0x6e69, 0x2074, 0x614e, 0x656d, 0x0000, 0x7a73, 0x6f50, 0x6e69, 
+0x4e74, 0x6d61, 0x0065, 0x0000, 0x004f, 0x0000, 0x0000, 0x0002, 0x001e, 
+0x0001, 0x0087, 0x0003, 0x0000, 0x4294, 0x0000, 0x0003, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6145, 0x7473, 0x0000, 0x7a73, 0x6145, 0x7473, 0x0000, 0x5100, 0x0000, 
+0x0000, 0x0200, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0005, 0x9400, 0x0042, 
+0x0000, 0x0006, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x4e00, 0x726f, 0x6874, 0x0000, 0x7a73, 0x6f4e, 
+0x7472, 0x0068, 0x0000, 0x0053, 0x0000, 0x0000, 0x0002, 0x001e, 0x0001, 
+0x0087, 0x0007, 0x0000, 0x4294, 0x0000, 0x0007, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6548, 
+0x6769, 0x7468, 0x0000, 0x7a73, 0x6548, 0x6769, 0x7468, 0x0000, 0x5a00, 
+0x0000, 0x0200, 0x0200, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0007, 0x9400, 
+0x0042, 0x0000, 0x0007, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 0x6174, 0x4520, 0x7361, 
+0x0074, 0x7300, 0x447a, 0x6c65, 0x6174, 0x6145, 0x7473, 0x0000, 0x5c00, 
+0x0000, 0x0200, 0x0200, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0000, 0x9400, 
+0x0042, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 0x6174, 0x4e20, 0x726f, 
+0x6874, 0x0000, 0x7a73, 0x6544, 0x746c, 0x4e61, 0x726f, 0x6874, 0x0000, 
+0x5e00, 0x0000, 0x0200, 0x0200, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0000, 
+0x9400, 0x0042, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x6c65, 0x6174, 0x4820, 
+0x6965, 0x6867, 0x0074, 0x7300, 0x447a, 0x6c65, 0x6174, 0x6548, 0x6769, 
+0x7468, 0x0000, 0x5700, 0x0000, 0x0200, 0x0200, 0x1e00, 0x0100, 0x8700, 
+0x0000, 0x0003, 0x9400, 0x0042, 0x0000, 0x0003, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x7369, 
+0x6174, 0x636e, 0x0065, 0x7300, 0x447a, 0x7369, 0x6174, 0x636e, 0x0065, 
+0x0000, 0x005a, 0x0000, 0x0002, 0x0002, 0x0008, 0x0001, 0x0085, 0x0000, 
+0x0000, 0x4270, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x7453, 0x2064, 0x6145, 
+0x7473, 0x0000, 0x6664, 0x7453, 0x4564, 0x7361, 0x0074, 0x2e23, 0x2323, 
+0x0000, 0x005c, 0x0000, 0x0002, 0x0002, 0x0008, 0x0001, 0x0085, 0x0007, 
+0x0000, 0x4270, 0x0000, 0x0007, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x7453, 0x2064, 0x6f4e, 
+0x7472, 0x0068, 0x6400, 0x5366, 0x6474, 0x6f4e, 0x7472, 0x0068, 0x2e23, 
+0x2323, 0x0000, 0x005e, 0x0000, 0x0002, 0x0002, 0x0008, 0x0001, 0x0085, 
+0x0006, 0x0000, 0x4270, 0x0000, 0x0006, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x7453, 0x2064, 
+0x6548, 0x6769, 0x7468, 0x0000, 0x6664, 0x7453, 0x4864, 0x6965, 0x6867, 
+0x0074, 0x2e23, 0x2323, 0x0000, 0x005a, 0x0000, 0x0002, 0x0002, 0x0008, 
+0x0001, 0x0085, 0x0000, 0x0000, 0x4270, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6152, 0x2079, 0x694d, 0x7373, 0x0000, 0x6664, 0x6152, 0x4d79, 0x7369, 
+0x0073, 0x2e23, 0x2323, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0004, 
+0x0000, 0x0083, 0x0069, 0x0000, 0x4220, 0x0000, 0x0062, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6f4e, 0x6564, 0x7450, 0x0072, 0x0000, 0x0000, 0x0048, 0x0000, 0x0000, 
+0x0000, 0x0004, 0x0000, 0x0083, 0x0000, 0x0000, 0x4220, 0x0000, 0x8300, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x4244, 0x0041, 0x0000, 0x0000, 0x0000, 0x4190, 0x0001, 
+0x6000, 0xff41, 0xfdff, 0xffff, 0xffff, 0xfdff, 0xffff, 0xffff, 0xfdff, 
+0xffff, 0x00ff, 0x0000, 
+    0
+END
+
+IDD_COLUMNEDITOR DLGINIT
+BEGIN
+    IDC_COLUMNGRID, 0x37a, 1413, 0
+0x002e, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0035, 0x0020, 0x0050, 0x0072, 0x006f, 0x0074, 0x006f, 0x0056, 
+0x0069, 0x0065, 0x0077, 0x0020, 0x0044, 0x0065, 0x0076, 0x0065, 0x006c, 
+0x006f, 0x0070, 0x006d, 0x0065, 0x006e, 0x0074, 0x0020, 0x0043, 0x006f, 
+0x0072, 0x0070, 0x002e, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0000, 0x0003, 0x0003, 0x402f, 0x0000, 0x0d70, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0000, 0xffff, 0x00ff, 0x0300, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 0x9000, 0x4401, 
+0x0142, 0x0d00, 0x534d, 0x5320, 0x6e61, 0x2073, 0x6553, 0x6972, 0x0166, 
+0x0101, 0x0101, 0x0000, 0x0000, 0x0001, 0x0001, 0x0002, 0x0000, 0x0101, 
+0x0001, 0x0101, 0x0001, 0x0100, 0x0101, 0x0000, 0x0002, 0x0002, 0x0000, 
+0x0001, 0x0000, 0x0071, 0x000d, 0x001b, 0xffff, 0xffff, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0x8080, 
+0x0080, 0x04ff, 0x0000, 0x0000, 0x0000, 0x0600, 0x4e5b, 0x4c55, 0x5d4c, 
+0x0000, 0x0000, 0x0000, 0xbf80, 0x0000, 0xbf80, 0x0000, 0x4220, 0x0000, 
+0x000e, 0x0000, 0x043f, 0x0000, 0x0049, 0x0000, 0x0000, 0x0000, 0x003c, 
+0x0001, 0x0087, 0x0000, 0x0000, 0x42f0, 0x0000, 0xe352, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x614e, 0x656d, 0x0000, 0x0000, 0x4f00, 0x0000, 0x0000, 0x0000, 0x1e00, 
+0x0100, 0x8700, 0x0100, 0x0001, 0x9400, 0x0042, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x4500, 0x7361, 0x2074, 0x6542, 0x6967, 0x006e, 0x0000, 0x0000, 0x0050, 
+0x0000, 0x0000, 0x0000, 0x001e, 0x0001, 0x0087, 0x4220, 0x0000, 0x4294, 
+0x0000, 0x0355, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x6f4e, 0x7472, 0x2068, 0x6542, 0x6967, 
+0x006e, 0x0000, 0x0000, 0x0051, 0x0000, 0x0000, 0x0000, 0x001e, 0x0001, 
+0x0087, 0x0000, 0x0000, 0x4294, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6548, 
+0x6769, 0x7468, 0x4220, 0x6765, 0x6e69, 0x0000, 0x0000, 0x4d00, 0x0000, 
+0x0000, 0x0000, 0x1e00, 0x0100, 0x8700, 0x0000, 0x004e, 0x9400, 0x0042, 
+0x0000, 0x0008, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x4500, 0x7361, 0x2074, 0x6e45, 0x0064, 0x0000, 
+0x0000, 0x004e, 0x0000, 0x0000, 0x0000, 0x001e, 0x0001, 0x0087, 0x0000, 
+0x0000, 0x4294, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6f4e, 0x7472, 0x2068, 
+0x6e45, 0x0064, 0x0000, 0x0000, 0x004f, 0x0000, 0x0000, 0x0000, 0x001e, 
+0x0001, 0x0087, 0x0000, 0x0000, 0x4294, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6548, 0x6769, 0x7468, 0x4520, 0x646e, 0x0000, 0x0000, 0x4800, 0x0000, 
+0x0000, 0x0000, 0x0400, 0x0000, 0x8300, 0x0000, 0x0000, 0x3000, 0x0042, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x4400, 0x4142, 0x0000, 0x0000, 0x4d00, 0x0000, 
+0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x2000, 0x0042, 0x3000, 0x0042, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x4500, 0x7361, 0x2074, 0x6542, 0x0067, 0x0000, 
+0x0000, 0x004e, 0x0000, 0x0000, 0x0000, 0x0008, 0x0000, 0x0085, 0x6769, 
+0x0000, 0x4230, 0x0000, 0x6e69, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6f4e, 0x7472, 0x2068, 
+0x6542, 0x0067, 0x0000, 0x0000, 0x004f, 0x0000, 0x0000, 0x0000, 0x0008, 
+0x0000, 0x0085, 0x4500, 0x0000, 0x4230, 0x0000, 0x0064, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6548, 0x6769, 0x7468, 0x4220, 0x6765, 0x0000, 0x0000, 0x4d00, 0x0000, 
+0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x6f00, 0x0072, 0x3000, 0x0042, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x4500, 0x7361, 0x2074, 0x6e45, 0x0064, 0x0000, 
+0x0000, 0x004e, 0x0000, 0x0000, 0x0000, 0x0008, 0x0000, 0x0085, 0x6548, 
+0x0000, 0x4230, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x6f4e, 0x7472, 0x2068, 
+0x6e45, 0x0064, 0x0000, 0x0000, 0x004f, 0x0000, 0x0000, 0x0000, 0x0008, 
+0x0000, 0x0085, 0x0000, 0x0000, 0x4230, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x6548, 0x6769, 0x7468, 0x4520, 0x646e, 0x0000, 0x0000, 0x0000, 0x9000, 
+0x0141, 0x0000, 0x4160, 0xffff, 0xfffd, 0xffff, 0xffff, 0xfffd, 0xffff, 
+0xffff, 0xfffd, 0xffff, 0x0000, "\000" 
+    0
+END
+
+IDD_ZONEEDITOR DLGINIT
+BEGIN
+    IDC_ZONEGRID, 0x37a, 1395, 0
+0x002e, 0x0000, 0x0043, 0x006f, 0x0070, 0x0079, 0x0072, 0x0069, 0x0067, 
+0x0068, 0x0074, 0x0020, 0x0028, 0x0063, 0x0029, 0x0020, 0x0031, 0x0039, 
+0x0039, 0x0035, 0x0020, 0x0050, 0x0072, 0x006f, 0x0074, 0x006f, 0x0056, 
+0x0069, 0x0065, 0x0077, 0x0020, 0x0044, 0x0065, 0x0076, 0x0065, 0x006c, 
+0x006f, 0x0070, 0x006d, 0x0065, 0x006e, 0x0074, 0x0020, 0x0043, 0x006f, 
+0x0072, 0x0070, 0x002e, 0x0012, 0x0000, 0x0001, 0x0000, 0x000a, 0x0000, 
+0x001a, 0x0000, 0x0000, 0x0003, 0x0003, 0x3780, 0x0000, 0x0da5, 0x0000, 
+0x004d, 0x0000, 0x0000, 0x0000, 0xffff, 0x00ff, 0x0300, 0xe352, 0x910b, 
+0xce8f, 0x9d11, 0x00e3, 0x00aa, 0xb84b, 0x0151, 0x0000, 0x9000, 0x4401, 
+0x0142, 0x0d00, 0x534d, 0x5320, 0x6e61, 0x2073, 0x6553, 0x6972, 0x0166, 
+0x0101, 0x0101, 0x0000, 0x0000, 0x0001, 0x0001, 0x0002, 0x0000, 0x0101, 
+0x0001, 0x0101, 0x0001, 0x0100, 0x0101, 0x0000, 0x0002, 0x0002, 0x0000, 
+0x0001, 0x0000, 0x0071, 0x000d, 0x001b, 0xffff, 0xffff, 0xffff, 0xffff, 
+0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0xffff, 0x8080, 
+0x0080, 0x04ff, 0x0000, 0x0000, 0x0000, 0x0600, 0x4e5b, 0x4c55, 0x5d4c, 
+0x0000, 0x0000, 0x0000, 0xbf80, 0x0000, 0xbf80, 0x0000, 0x4220, 0x0000, 
+0x000e, 0x0000, 0x042d, 0x0000, 0x0049, 0x0000, 0x0000, 0x0000, 0x003c, 
+0x0001, 0x0087, 0x0000, 0x0000, 0x42f0, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x614e, 0x656d, 0x0000, 0x0000, 0x4c00, 0x0000, 0x0000, 0x0000, 0x1e00, 
+0x0100, 0x8700, 0x0000, 0x0003, 0x7000, 0x0042, 0x0000, 0x0003, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x5300, 0x2d57, 0x6145, 0x7473, 0x0000, 0x0000, 0x4d00, 0x0000, 0x0000, 
+0x0000, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0004, 0x7000, 0x0042, 0x0000, 
+0x0003, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x5300, 0x2d57, 0x6f4e, 0x7472, 0x0068, 0x0000, 0x0000, 
+0x004e, 0x0000, 0x0000, 0x0000, 0x001e, 0x0001, 0x0087, 0x0006, 0x0000, 
+0x4270, 0x0000, 0x0006, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x5753, 0x482d, 0x6965, 0x6867, 
+0x0074, 0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x001e, 0x0001, 
+0x0087, 0x0000, 0x0000, 0x4270, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x454e, 
+0x452d, 0x7361, 0x0074, 0x0000, 0x0000, 0x004d, 0x0000, 0x0000, 0x0000, 
+0x001e, 0x0001, 0x0087, 0x0000, 0x0000, 0x4270, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x454e, 0x4e2d, 0x726f, 0x6874, 0x0000, 0x0000, 0x4e00, 0x0000, 
+0x0000, 0x0000, 0x1e00, 0x0100, 0x8700, 0x0000, 0x0008, 0x7000, 0x0042, 
+0x0000, 0x0005, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x4e00, 0x2d45, 0x6548, 0x6769, 0x7468, 0x0000, 
+0x0000, 0x4800, 0x0000, 0x0000, 0x0000, 0x0400, 0x0000, 0x8300, 0x0000, 
+0x0000, 0x3000, 0x0042, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x4400, 0x4142, 0x0000, 
+0x0000, 0x4c00, 0x0000, 0x0000, 0x0000, 0x0800, 0x0000, 0x8500, 0x0000, 
+0x0000, 0x3000, 0x0042, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x5300, 0x2d57, 0x6145, 
+0x7473, 0x0000, 0x0000, 0x4d00, 0x0000, 0x0000, 0x0000, 0x0800, 0x0000, 
+0x8500, 0x0000, 0x0000, 0x3000, 0x0042, 0x0000, 0x0100, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x5300, 
+0x2d57, 0x6f4e, 0x7472, 0x0068, 0x0000, 0x0000, 0x004e, 0x0000, 0x0000, 
+0x0000, 0x0008, 0x0000, 0x0085, 0x0000, 0x0000, 0x4230, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x5753, 0x482d, 0x6965, 0x6867, 0x0074, 0x0000, 0x0000, 
+0x004c, 0x0000, 0x0000, 0x0000, 0x0008, 0x0000, 0x0085, 0x0008, 0x0000, 
+0x4230, 0x0000, 0x0008, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x454e, 0x452d, 0x7361, 0x0074, 
+0x0000, 0x0000, 0x004d, 0x0000, 0x0000, 0x0000, 0x0008, 0x0000, 0x0085, 
+0x0006, 0x0000, 0x4230, 0x0000, 0x0006, 0x0001, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0001, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x454e, 0x4e2d, 
+0x726f, 0x6874, 0x0000, 0x0000, 0x4e00, 0x0000, 0x0000, 0x0000, 0x0800, 
+0x0000, 0x8500, 0x0000, 0x0000, 0x3000, 0x0042, 0x0000, 0x0100, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0100, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x4e00, 0x2d45, 0x6548, 0x6769, 0x7468, 0x0000, 0x0000, 0x0000, 0x9000, 
+0x0141, 0x0000, 0x4160, 0xffff, 0xfffd, 0xffff, 0xffff, 0xfffd, 0xffff, 
+0xffff, 0xfffd, 0xffff, 0x0000, "\000" 
+    0
+END
+
+IDD_SAVE_DGN DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x6546, 0x7465, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x6e49, 0x6863, 0x7365, "\000" 
+    IDC_COMBO1, 0x403, 12, 0
+0x694d, 0x6c6c, 0x6d69, 0x7465, 0x7265, 0x0073, 
+    IDC_COMBO1, 0x403, 7, 0
+0x654d, 0x6574, 0x7372, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_LIGHT_ADJUST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 127
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_OPENGL_SETTINGS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+
+    IDD_CYLINDERBYEDGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 208
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_CYLINDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 81
+    END
+
+    IDD_CIRCLE_BY_EDGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 22
+    END
+
+    IDD_CIRCLE_BY_3DPOINT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_ELEMENT_LIST_VIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 137
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_CIRCLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 359
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_RADIOGRAPHY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_BUNDLE_CALC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_3DPOINTGRIDBAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 407
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_COLUMNEDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 421
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_ZONEEDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 365
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_QUICKCYLINDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_ENDPOINTCYLINDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SAVE_DGN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 362
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 162
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_WINDOW_TILE_VERT
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+END
+
+IDR_MEASURE TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      IDC_MEASURE
+    BUTTON      ID_MEASURE_CYLINDERBYEDGE
+    BUTTON      ID_MEASURE_CIRCLEBYEDGE
+    BUTTON      ID_MEASURE_CIRCLEBY3DPOINT
+END
+
+IDR_IMAGETOOLS TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      IDC_SELECT
+    BUTTON      IDC_ZOOMIN
+    BUTTON      IDC_ZOOMOUT
+    BUTTON      ID_BUTTON32844
+END
+
+IDR_VIEWS TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      IDC_SELECT
+    BUTTON      IDC_ZOOMIN
+    BUTTON      IDC_ZOOMOUT
+    BUTTON      IDC_CENTER
+    SEPARATOR
+    BUTTON      IDC_OVERLAY
+    BUTTON      IDC_RAYS
+    SEPARATOR
+    BUTTON      ID_VIEW_DEFINEREGION
+    BUTTON      ID_VIEW_DELETEREGION
+    BUTTON      ID_VIEW_LABLEREGION
+    SEPARATOR
+    BUTTON      ID_VIEW_ELEMENTLIST
+    SEPARATOR
+    BUTTON      IDC_ORTHO
+    BUTTON      IDC_PERSPECTIVE
+    SEPARATOR
+    BUTTON      ID_GRAPHICS_OPENGLSETTINGS
+    BUTTON      ID_GRAPHICS_LIGHT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_SELECT              "Sets Select Mode\nSelect"
+    IDC_MEASURE             "Measure\nMeasure"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDC_CAMERA              "Camera Selection\nCamera"
+    IDC_TARGET              "Target Selection\nTarget"
+    IDR_MAINFRAME           "PM³ Lite"
+    IDC_ORTHO               "Set ortho mode\nOrtho"
+    IDC_PERSPECTIVE         "Sets perspective mode\nPerspective"
+    IDC_CENTER              "Center\nCenter"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_BITMAPTYPE          "\nBitmap\nBitmap\nBitmap Files (*.bmp)\n.BMP\nFotobrow.Document\nBitmap Document"
+    IDC_ZOOMIN              "Zoom In\nZoom In"
+    IDC_ZOOMOUT             "Zoom Out\nZoom Out"
+    IDR_GRAPHICS            "\nPM3\nPM3\nPM3 Database (triton.dbd)\n.DBD\nTriton.Database\nPM3 Database"
+    IDR_COLUMNGRID          "\nPM3\nPM3\nPM3 Database (triton.dbd)\n.DBD\nTriton.Database\nPM3 Database"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "PM³ Lite  -  Photo Measurement Modeling and Management"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "List Help topics\nHelp Index"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_ZOOM                "Zoom\nZoom"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_ELEMENTLIST         "Element List\nElement List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_OVERLAY             "Toggle the Overlay Items\nOverlay"
+    IDC_RAYS                "Toggle Rays\nRays"
+    IDR_ZONEGRID2           "\nPM3\nPM3\nPM3 Database (triton.dbd)\n.DBD\nTriton.Database\nPM3 Database"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_DEFINEREGION    "Define a Region\nDefine Region"
+    ID_VIEW_DELETEREGION    "To Delete: Goto Equip Images\nDelete Region"
+    ID_EDIT_EQUIPDATA       "View member list\nMembers"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_LABLEREGION     "To Change Label: Goto Equip Images\nEdit Name"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPHICS_OPENGLSETTINGS "Edit OpenGL settings\nOpenGL"
+    ID_MEASURE_CYLINDERBYEDGE "Measure a Cylinder by edge\nCylinder by Edge"
+    ID_MEASURE_CIRCLEBYEDGE "Measure a circle by edge points\nCircle by edge"
+    ID_MEASURE_CIRCLEBY3DPOINT 
+                            "Measure Circle by 3D Points\nCircle by 3D Point"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GRAPHICS_LIGHT       "OpenGL Light Settings for the Graphic Window\nLights"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+#include "afxres.rc"  	// Standard components
+#include "afxprint.rc"	// printing/print preview resources
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

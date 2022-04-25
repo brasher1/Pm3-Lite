@@ -1,0 +1,12 @@
+CYLI 1 of EQUI /SECONDARY_STILL	        
+diameter		4419.60	     
+height			14066.04      
+center east		31909.21      
+center north	112095.32      
+center height	-10870.41      
+beg east		31909.20      
+beg north		119128.34      
+beg height		-10869.37      
+end east		31909.22      
+end north		105062.29       
+end height		-10871.44
